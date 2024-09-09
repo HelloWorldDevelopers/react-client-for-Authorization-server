@@ -1,0 +1,141 @@
+.CustomerSatisfLoginMain_Div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CustomerSatisfLoginForm_Container_Div1 {
+    height: 90vh;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 6px;
+}
+
+.CustomerSatisfLoginLogo_Div {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CustomerSatisfLoginLogo_Div img {
+
+    width: 40%;
+}
+
+.CustomerSatisfLoginHeading_Div {
+   
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.CustomerSatisfLoginHeading_Div span {
+    display: block;
+    font-size: 14px;
+}
+
+.mainHeadingData {
+    font-weight: 600;
+    color: #32A4D9;
+    font-size: 20px;
+}
+
+.CustomerSatisfLoginInput_Container_Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.CustomerSatisfLoginInner_Div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.CustomerSatisfLoginInputs {
+    margin: 5px 0;
+}
+
+.CustomerSatisfLoginInputs input {
+    width: 100%;
+    border: 1px solid #394EBB;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+
+.CustomerSatisfLoginButton_Container_Div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.CustomerSatisfLoginButton_Container_Div button {
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: #D21363
+}
+
+
+
+@media (min-width:320px) {
+    .CustomerSatisfLoginForm_Container_Div1 {
+        height: auto;
+        width: 97%;
+    }
+
+    .CustomerSatisfLoginLogo_Div img {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .CustomerSatisfLoginHeading_Div span {
+        display: block;
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .CustomerSatisfLoginInner_Div {
+        width: 90%;
+    }
+
+    .CustomerSatisfLoginButton_Container_Div {
+        margin: 10px 0;
+    }
+}
+
+@media (min-width:768px) {
+    .CustomerSatisfLoginLogo_Div img {
+        width: 40%;
+    }
+
+    .CustomerSatisfLoginForm_Container_Div1 {
+        height: auto;
+        width: 70%;
+    }
+}
+
+@media (min-width:1024px) {
+    .CustomerSatisfLoginForm_Container_Div1 {
+        width: 43%;
+    }
+}
+
+@media (min-width:1280px) {
+    .CustomerSatisfLoginInner_Div {
+        width: 80%;
+    }
+
+    .CustomerSatisfLoginInput_Label label {
+        font-size: 14px;
+        font-weight: 500;
+    }
+}

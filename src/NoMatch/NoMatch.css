@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:1024px){
+    .nomatchwrapper{
+        width: 100vw;
+        height:99vh;
+    }
+
+    .nomatchwrapper .animationwrapper{
+        width: 100%;
+        height: 76%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 52px; */
+       
+    }
+    .acces{
+
+    }
+
+}

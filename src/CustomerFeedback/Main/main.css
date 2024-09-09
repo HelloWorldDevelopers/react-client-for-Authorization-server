@@ -1,0 +1,30 @@
+
+:root {
+    --busi_overlay_bg_color: #03326496;
+  }
+
+  .LoaderModal{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 75%;
+    outline: none;
+  }
+  
+  .LoaderOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    bottom: 0;
+    left: 0;
+    background-color: var(--busi_overlay_bg_color);
+    animation: show 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+  }
+

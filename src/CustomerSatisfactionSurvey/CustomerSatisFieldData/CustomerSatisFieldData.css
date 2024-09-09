@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.customerSatisFieldDataouterDiv {
+  width: 90%;
+  margin: 8px auto 10px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.customerSatisFieldDataDetailDiv {
+  border-left: 3px solid #00adee;
+  padding-left: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.customerSatisFieldDataDetailDiv span.label {
+  font-size: 13px;
+  display: block;
+  width: 17%;
+  font-weight: 600;
+}
+
+.customerSatisFieldDataDetailDiv table td {
+  border: none;
+  vertical-align: top;
+  width: 50%;
+}
+
+.customerSatisFieldDataDetailDiv table {
+  width: 100%;
+}
+
+.customerSatisFieldDatainformationDiv {
+  display: flex;
+  width: 100%;
+}
+
+span.customerSatisFielddatacontentDetails {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+  left: 13px;
+}
+
+.customerSatisFieldDatacontentDataDiv {
+  width: 90%;
+  margin: 0 auto;
+  height: 53vh;
+  overflow-y: scroll;
+  background: #ffff;
+  padding: 10px 2px 10px 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+
+}
+
+.customerSatisFieldDatamainContentDiv {
+  padding: 10px;
+  border-radius: 4px;
+  margin: 5px 0;
+  background: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.customerSatisFieldDataquestionDiv {
+  display: flex;
+}
+
+.customerSatisFieldDatareviewquesStyle {
+  font-size: 14px;
+  margin-right: 11px;
+  color: #707070;
+  width: 6%;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.customerSatisFieldDatareviewquesStyle1 {
+  font-size: 14px;
+  margin-right: 11px;
+  color: #707070;
+  width: 6.8%;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+
+
+}
+
+.que {
+  position: relative;
+  left: 7px;
+}
+
+.answer {
+  font-weight: 500;
+}
+
+.customerSatisFieldDatareviewquesSemiStyle {
+  font-size: 14px;
+  color: #707070;
+  margin-right: 13px;
+  margin-left: 14px;
+  font-weight: 500;
+}
+
+.customerSatisFieldDatareviewquesSemiStyle1 {
+  font-size: 14px;
+  color: #707070;
+  margin-right: 13px;
+  margin-left: 5px;
+  font-weight: 500;
+}
+
+.customerSatisFieldDataquestionDetails {
+  margin-left: 2px;
+  white-space: pre-wrap;
+  tab-size: 2;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.customerSatisFieldDataanswerDiv {
+  width: 83%;
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+.customerSatisFieldDataanswerDiv1 {
+  width: 86%;
+  display: flex;
+  margin: 10px 0 0 0;
+}
+
+.customerSatisFieldDatareviewStyle {
+  margin-top: 7px;
+  font-size: 14px;
+  margin-right: 18px;
+  color: #000;
+  font-weight: 500;
+}
+
+.customerSatiFieldData {
+  margin-top: 7px;
+  font-size: 14px;
+  width: 1%;
+  margin-right: -3px;
+  margin-left: 2px;
+}
+
+.customerSatiFieldData1 {
+  margin-top: 7px;
+  font-size: 14px;
+  width: 1%;
+  margin-right: -3px;
+  margin-left: 0px;
+}
+
+
+.customerSatisFieldDatamainButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 10px 0 5px 0; */
+  width: 90%;
+  margin: -1px auto 2rem;
+}
+
+.customerSatisFieldDatamainButtonDiv .backButton {
+  width: 130px;
+  height: 40px;
+  color: #FF1046;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border-image: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+  border-image-slice: 1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+}
+
+.customerSatisFieldDatamainButtonDiv .nextButton {
+  width: 108px;
+  margin: 9px 0 2px 0;
+  height: 37px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.customerSatisFieldDataWrapper {
+  display: flex;
+  justify-content: center;
+  height: 85vh;
+}
+
+.customerSatisFieldDatanewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+}
+
+.customerSatisFieldDatanewDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90vh;
+}
+
+.colon {
+  position: relative;
+  left: -1%;
+  /* margin-left: -1px; */
+
+}
+
+.colon1 {
+  position: relative;
+  left: -1%;
+}
+
+.answerDiv1 {
+  width: 100%;
+  display: flex;
+  position: relative;
+  /* margin: 4px 8px; */
+  /* margin-top: -5px; */
+  top: -1px;
+}
+
+/* Styling for the radio button */
+.customerFormroundDiv {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Styling for the radio button when checked */
+.customerFormroundDiv.checked {
+  background-color: #1e90ff;
+  /* Blue color */
+  border-color: #1e90ff;
+  /* Blue color */
+}
+
+/* Styling for the radio button when checked and disabled */
+.customerFormroundDiv.checked:after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 3px;
+  background-color: #fff;
+  /* White color */
+  border-radius: 50%;
+}
+
+/* Trick to change the disabled radio button background to blue */
+.customerFormroundDiv.disabled {
+  position: relative;
+}
+
+.customerFormroundDiv.disabled:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border: 2px solid #1e90ff;
+  /* Blue color */
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+
+@media (min-width:1440px) {
+  .customerSatisFieldDatareviewquesStyle {
+    width: 5.4%;
+  }
+
+  .customerSatisFieldDatacontentDataDiv {
+    height: 64vh;
+  }
+}
+
+@media (min-width:1536px) {
+
+  .customerSatisFieldDatamainButtonDiv .nextButton {
+    margin: 12px 0 2px 0;
+  }
+
+  .customerSatisFieldDatareviewquesStyle {
+    width: 5.1%;
+  }
+
+  .DownloadViewMainouterDiv {
+    height: 65vh;
+  }
+
+    .customerSatiFieldData {
+      margin-top: 8px;
+      font-size: 14px;
+      width: 1%;
+      margin-right: -4px;
+      margin-left: 1px;
+    }
+
+    .customerSatisFieldDatareviewStyle {
+      width: 8.2%;
+    }
+    .customerSatisFieldDatareviewquesStyle1 {
+      width: 5.6%;
+    }
+
+    .customerSatiFieldData1 {
+      margin-top: 8px;
+      margin-left: -4px;
+  }
+  
+}

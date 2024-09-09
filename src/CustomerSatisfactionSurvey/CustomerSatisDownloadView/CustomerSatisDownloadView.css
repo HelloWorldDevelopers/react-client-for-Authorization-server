@@ -1,0 +1,689 @@
+.customerSatisDownloadViewdataDiv {
+  width: 100%;
+  /* margin-bottom: -10px; */
+}
+
+.customerSatisDownloadViewouterDiv {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  background-color: #ffff;
+}
+
+.DownloadViewDetailDivNextSatisfaction {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.DownloadViewDetailFirstDiv,
+.DownloadViewDetailSecondDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.DownloadViewDetailFirstDiv div,
+.DownloadViewDetailSecondDiv div {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.DownloadViewDetailInnerFirstDiv {
+  width: 100%;
+}
+
+.DownloadViewDetailInnerFirstDiv div:nth-child(1) {
+  width: 15%;
+}
+
+.DownloadViewDetailInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+}
+
+.DownloadViewDetailInnerFirstDiv div:nth-child(3) {
+  width: 82%;
+}
+
+.DownloadViewDetailInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DownloadViewDetailSecondDivInnerFirstDiv {
+  width: 100%;
+}
+
+.DownloadViewDetailSecondDivInnerFirstDiv div:nth-child(1) {
+  width: 20%;
+}
+
+.DownloadViewDetailSecondDivInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+}
+
+.DownloadViewDetailSecondDivInnerFirstDiv div:nth-child(3) {
+  width: 77%;
+}
+
+.DownloadViewDetailSecondDivInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DownloadViewMainouterDiv {
+  width: 90%;
+  margin: 0px auto;
+  padding: 10px 2px 10px 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  height: 53vh;
+  overflow-y: scroll;
+  background-color: #fff;
+  margin-top: 10px;
+}
+
+.DownloadViewmainHeaderDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #D21363;
+  font-weight: 600;
+  margin: 7px 0 7px 10px;
+}
+
+span.customerSatisFielddatacontentDetails1 {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+  left: 13px;
+}
+
+span.customerSatisFielddatacontentDetails2 {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  position: relative;
+  top: 4px;
+  left: 32px;
+}
+
+.DownloadViewcustomerFeedbackquestionDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.DownloadViewcustomerFeedbackQuestionDetail {
+  color: #707070;
+  width: 9%;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: -2px;
+  padding-right: 15px;
+  font-weight: 600;
+  position: relative;
+  left: -7px;
+
+}
+
+.DownloadViewcustFeedQuesSemi {
+  width: 2%;
+  font-size: 14px;
+  color: grey;
+  font-weight: 600;
+  margin-left: 1px
+}
+
+.DownloadViewquestionDetails1 {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  width: 80%;
+}
+
+.DownloadViewcustNextanswerDivNext {
+  padding: 1% 2.9% 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.DownloadViewcustfeedAns {
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.DownloadViewcustomerNextcolon {
+  width: 3.3%;
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-right: -12px;
+
+}
+
+.DownloadViewmainButtonDiv1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 0%;
+  width: 90%;
+  margin: 9px auto 2.5rem;
+}
+
+.DownloadViewBackbtn {
+  width: 108px;
+  height: 37px;
+  color: #fff;
+  background: #C22457 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none
+}
+
+.DownloadViewbtnDownload {
+  /* background: #fff; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2px;
+  height: auto;
+  position: sticky;
+  bottom: 0;
+}
+
+.DownloadViewbtnDownload button {
+  border: none;
+  width: 108px;
+  height: 37px;
+  color: #fff;
+  background: #D21363 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+}
+
+.DownloadViewCustomerfeedbackModal {
+  display: block;
+  /* padding: 1rem; */
+  width: 65%;
+  max-width: 80%;
+  background-color: var(--bug_white_color);
+  outline: transparent;
+  transition: all 0.5s ease-in-out;
+  animation: show 0.2s;
+  transform: scale(1);
+}
+
+.DownloadViewcustomerFeedbackModalHeightBug {
+  animation: show 0.2s;
+  background-color: #fff;
+  display: block;
+  height: 367px;
+  max-height: 72%;
+  max-width: 85%;
+  outline: transparent;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  width: 57% !important;
+  overflow-y: scroll;
+}
+
+
+.DownloadViewcustomerFeedbackModalHeightBug::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+
+
+.DownloadViewdelete_close_one {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 111111;
+}
+
+.DownloadViewcustomerHtwo {
+  height: 1.5px;
+  background: transparent linear-gradient(270deg, #FFB800 0%, #FF004D 100%) 0% 0% no-repeat padding-box;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv {
+  margin: 13px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv table td {
+  border: none;
+  vertical-align: top;
+  width: 60%;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+  padding-left: 10px;
+}
+
+
+
+.pdfcustomernextcolon1 {
+  margin-left: -184px;
+}
+
+.pdfcustomernextcolon1 {
+  width: 5%;
+}
+
+.DownloadViewpdfinformationDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 5px 0px 0px 9px;
+}
+
+.DownloadViewpreviewLabel {
+  font-size: 12px;
+  display: block;
+  width: 34%;
+  font-weight: bold;
+  padding-left: 8px;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv span.label {
+  font-size: 12px;
+  display: block;
+  width: 38%;
+  font-weight: bold;
+  padding-left: 9px;
+}
+
+.DownloadViewpdfcustomerNextouterDiv {
+  width: 100%;
+  padding: -1% 2% 3% 2%;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.DownloadViewpdfmainHeaderDiv1 {
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+  opacity: 1.22;
+  width: 60%;
+  padding: 0px 8px;
+  margin: 10px 12px;
+}
+
+.DownloadViewpdfheader {
+  font-size: 12px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+
+}
+
+.DownloadViewpdfCustomerFeedbackmainContentDiv1 {
+  padding: 6px 20px 6px 20px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 0px 7px #D6D6D6BA;
+  margin: 5px 14px;
+  overflow-y: scroll;
+}
+
+.DownloadViewpdfCustomerFeedbackmainContentDiv {
+  padding: 10px 20px 10px 20px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 0px 7px #D6D6D6BA;
+  margin: 5px 19px;
+  overflow-y: scroll;
+}
+
+.DownloadViewpdfcustomerFeedbackquestionDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.DownloadViewpdfcustomerFeedbackQuestionNo {
+  color: #707070;
+  font-size: 13px;
+  width: 7%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  position: relative;
+  left: -4px
+}
+
+.DownloadViewpdfcustomerSemicolon {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-start;
+  width: 5%;
+  font-weight: 700;
+  position: relative;
+  left: 11px;
+}
+
+.DownloadViewpdffontSize {
+  color: #707070;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+  line-height: 18px;
+}
+
+.DownloadViewpdfcustomerFeedbackQuestionDetails {
+  color: #707070;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+  line-height: 18px;
+}
+
+.DownloadViewpdfanswerDivfeedNext {
+  display: flex;
+  justify-content: space-around;
+}
+
+.DownloadViewpdfquestionDetailsHeader {
+  color: #000000;
+  font-weight: normal;
+  font-size: 12px;
+  width: 7%;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 7px;
+}
+
+.DownloadViewpdfcustomerSemicolon1 {
+  color: #707070;
+  font-size: 13px;
+  width: 5%;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+  position: relative;
+  left: 11px;
+}
+
+.DownloadViewpdfansfontSize {
+  color: #000000;
+  font-size: 11px;
+  display: flex;
+  width: 85%;
+  justify-content: flex-start;
+}
+
+.DownloadViewpdfquestionDetails {
+  color: #000000;
+  font-size: 12px;
+  display: flex;
+  width: 85%;
+  justify-content: flex-start;
+}
+
+.DownloadViewpdfhidedownloadBtn {
+  display: none;
+}
+
+.DownloadViewpdfCustomerFeedbackbuttonDivDele {
+  bottom: 4px;
+  display: flex;
+  justify-content: flex-end;
+  position: -webkit-sticky;
+  position: relative;
+  z-index: 1111;
+}
+
+.DownloadViewpdfCustomerFeedbackDeleteClose {
+  width: 94px;
+  height: 31px;
+  background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+  margin: 10px 15px 14px 0px;
+  position: absolute;
+  top: 75%;
+  z-index: 111;
+  font-size: 11px;
+}
+
+.DownloadViewpdfCustomerFeedbackfooter1 {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 9;
+  color: black;
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.DownloadViewpdfCustomerFeedbackfooter {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 9;
+  color: black;
+  font-size: 13px;
+  position: sticky;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.customerSatisDownloadViewWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.customerSatisDownloadViewSidebar {
+  width: 20%;
+}
+
+.customerSatisDownloadViewNewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: -4px auto 0 auto;
+
+}
+
+.customerSatisDownloadViewpdfImageDiv {
+  margin: 0 0;
+  height: 19px;
+}
+
+.customerSatisDownloadViewpdfImage {
+
+  width: 100%;
+}
+
+.DownloadViewpdfProjectEndHeader {
+  font-size: 13px;
+  margin: 6px 0 10px 15px;
+  text-align: center;
+}
+
+.DownloadViewpdfProjectEndHeader1 {
+  font-size: 13px;
+  position: relative;
+  top: 49px;
+  margin-left: 14px;
+  margin-top: -42px;
+  text-align: center;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv1 {
+
+  margin: 58px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv1 table td {
+  border: none;
+  vertical-align: top;
+  width: 60%;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv1 table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+  padding-left: 10px;
+}
+
+.DownloadViewpdfcustomerFeedDetailDiv1 span.label {
+  font-size: 13px;
+  display: block;
+  width: 20%;
+  font-weight: 600;
+  padding-left: 3px;
+}
+
+span.DownloadViewpdfcontentDetails {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.DownloadViewpdfheader1 {
+  font-size: 12px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+}
+
+.DownloadViewpdfFooterImage1 {
+  position: relative;
+
+}
+
+.DownloadViewpdfImage1 {
+  width: 100%;
+  top: 6px;
+  position: relative;
+
+
+}
+
+.DownloadViewPdficonDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 132px;
+  right: 10px;
+  gap: 68px;
+  color: #D21363;
+}
+
+.DownloadViewpdfIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.DownloadViewpdfIcons3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 22px;
+}
+
+.DownloadViewPdficonHeader {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.icons {
+  color: rgb(156, 148, 151);
+}
+
+.icons:hover {
+  color: rgb(77, 75, 76);
+}
+
+@media (min-width:1440px) {
+  .DownloadViewcustomerFeedbackQuestionDetail {
+    width: 8.3%;
+  }
+
+  .DownloadViewcustomerFeedbackModalHeightBug {
+    height: 670px;
+  }
+
+  .DownloadViewMainouterDiv {
+    height: 65vh;
+  }
+}
+
+@media (min-width: 1512px) {
+  .DownloadViewcustomerFeedbackQuestionDetail {
+    width: 8%;
+  }
+}
+
+@media (min-width:1536px) {
+  .DownloadViewcustomerFeedbackModalHeightBug {
+    height: 670px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .DownloadViewcustomerFeedbackModalHeightBug {
+    height: 670px;
+  }
+}
+
+.defaultHeight {
+  height: 60vh;
+}
+
+.regularHeight {
+  height: 55vh;
+}

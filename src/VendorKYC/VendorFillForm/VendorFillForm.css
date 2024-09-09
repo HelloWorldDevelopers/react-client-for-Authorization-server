@@ -1,0 +1,20 @@
+.vendorFillFormMainDiv {
+    height: auto;
+    width: 83%;
+    margin: 10px auto;
+    padding: 10px;
+    box-shadow: 0px 0px 10px -1px #a7a7a7;
+    border-radius: 5px;
+}
+
+.custom-quill .ql-stroke {
+    stroke: #999; /* Light color */
+}
+
+.custom-quill .ql-thin {
+    stroke: #999; /* Light color */
+}
+
+.custom-quill .ql-fill {
+    fill: #999; /* Light color */
+}

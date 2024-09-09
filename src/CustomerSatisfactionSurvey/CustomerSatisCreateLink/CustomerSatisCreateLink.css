@@ -1,0 +1,266 @@
+.customerSatisMain_Div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customerSatisHeading_Div .customerSatiscreateHeading {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 7px;
+}
+/* .ag-ltr .ag-cell-focus:not(.ag-cell-range-selected):focus-within{
+    border: none !important;
+} */
+.customerSatisHeading_Div {
+   
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 700;
+    width: 98%;
+}
+
+.customerSatisTable_Container_Dev {
+    position: relative;
+}
+
+.customerSatisCreate_Button_Div {
+    display: flex;
+    z-index: 1111;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.customerSatisopenCreateLink {
+    border: none;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.customerSatisTable_Div {
+    width: 97%;
+    margin:0px auto 7px auto;
+    
+}
+
+.customerSatissearch_filter {
+    position: relative;
+    margin-right: -30px;
+}
+
+.customerSatissearch_filter img {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#customerSatissearchFil {
+    border-radius: 5px;
+    padding: 7px 15px 7px 40px;
+    width: 80%;
+    outline: none;
+    border: 1px solid #394EBB;
+    height: 34px;
+}
+
+.customerSatisTable_Div .ag-paging-panel.ag-unselectable {
+    height: 30px;
+}
+
+.customerSatisTable_Div .ag-ltr .ag-cell {
+    font-size: 12px;
+}
+
+.customerSatisTable_Div .ag-header-row.ag-header-row-column {
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #2EAEAA 100%);
+    /* color: #fff; */
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.customerSatisTable_Div .ag-header-cell.ag-focus-managed,
+.ag-header.ag-pivot-off.ag-header-allow-overflow,
+.ag-header-row.ag-header-row-column {
+    height: 35px !important;
+    min-height: 35px !important;
+}
+
+.customerSatisTable_Div .ag-cell {
+    border-right: 1px solid #ccc;
+}
+
+.customerSatisTable_Div .ag-header-cell,
+.ag-cell-value {
+    border-right: 1px solid #cac6c6 !important;
+}
+
+.customerSatisTable_Div .ag-header-cell .ag-cell-value:nth-child(5) {
+    border-right: none !important;
+}
+
+.FormmodalHeightCreatLink {
+    animation: show 0.2s;
+    background-color: #fff !important;
+    display: block;
+    height: auto;
+    max-width: 79%;
+    outline: transparent;
+    padding: 1em;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.FormInput_Container_Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FormInner_Div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.FormInputMainDiv {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 14px;
+}
+
+.FormInputs {
+    margin: 5px 0;
+}
+.CustomerSatisfLoginInput_Label label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.FormInputs input,
+.FormInputs select {
+    width: 100%;
+    border: 1px solid #394EBB;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+
+.FormcreateLinkInput {
+    margin: 5px 0;
+    width: 49%;
+    text-align: left;
+}
+
+.FormInput_Label label {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.FormButton_Container_Div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.FormButton_Container_Div button {
+    border: none;
+    color: #fff;
+    padding: 8px 11px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.FormbuttonCreateLink {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 9px;
+}
+
+.customerSatiscreateLinkWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.customerSatiscreateLinkSidebar {
+    width: 20%;
+    margin-top: 8vh;
+
+}
+
+.customerSatiscreateLinkNewDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    width: 80%;
+}
+
+.customerSatissearchbtnWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customerSatiscreateLinkEdit {
+    font-size: 20px;
+    margin: 1px 0;
+    color: #FF004D;
+}
+
+.customerSatiscreateLinkView {
+    font-size: 18px;
+    margin: 1px 0;
+    color: #FF004D;
+    cursor: pointer;
+}
+
+.customerSatiscreateLinkView1 {
+    font-size: 18px;
+    margin: 1px 0;
+    color: #FF004D;
+    filter: blur(0);
+    opacity: 0.9;
+    pointer-events: none;
+}
+
+.ag-sort-order {
+    display: none !important;
+}
+
+@media (min-width:1024px) {
+    .customerSatisHeading_Div {
+        margin: 57px 0px 0 0;
+    }
+
+    .modalHeightCreatLink {
+        height: auto;
+    }
+
+    .FormcreateLinkInput {
+        margin: 5px auto;
+        width: 47%;
+        text-align: left;
+    }
+}
+
+@media (min-width:1280px) {
+    .customerSatisHeading_Div {
+        margin: 18px 0px 0 0;
+    }
+}

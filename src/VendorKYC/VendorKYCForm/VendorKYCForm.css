@@ -1,0 +1,1952 @@
+.vendorFormMainDiv {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+    padding-block: 10px;
+    box-shadow: 0px 0px 10px -1px #a7a7a7;
+    border-radius: 5px;
+}
+
+.vendorFormMainDiv1 {
+    height: auto;
+    width: 100%;
+    margin: 10px auto;
+    padding-block: 10px;
+    box-shadow: 0px 0px 10px -1px #a7a7a7;
+    border-radius: 5px;
+}
+
+.vendorFormMainDiv input:disabled,
+.vendorFormMainDiv option:disabled,
+.vendorFormMainDiv textarea:disabled {
+    color: #6b6b6b;
+    background-color: #fafafa
+}
+
+.supplierFirstDiv,
+.supplierFirstDiv2 {
+    height: 58px;
+    border-radius: 0px 33px 33px 0px;
+    background: #FFE9ED;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1%;
+}
+
+.supplierHeaderBorderLine {
+    border-left: 3px solid #C22457;
+    padding-left: 10px;
+    margin: 10px 0px 10px 14px;
+    width: 100%;
+}
+
+.supplierHeader {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 42px;
+    text-align: left;
+    color: #C22457;
+}
+
+.docDetailsSecondDiv span {
+    margin: 9px;
+    font-size: 18px;
+    color: #C22457;
+}
+
+.docDetailsInner1 {
+    border: 1px solid grey;
+    padding: 5px;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.kycFormDiv {
+    margin-top: -5px;
+}
+
+.kycFormDiv label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.kycFormDiv>input {
+    width: 100%;
+    padding: 12px 10px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #070707;
+}
+
+.kycFormDiv select {
+    width: 100%;
+    padding: 12px 10px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #080808;
+}
+
+.addressHeader {
+    font-size: 20px;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+
+}
+
+.addressInnerDiv {
+    width: 100%;
+    height: auto;
+    gap: 0px;
+    border-radius: 4px;
+    background: #F2F2F2;
+}
+
+.taxMainOuterDiv {
+    width: 100%;
+    height: auto;
+    gap: 0px;
+    border-radius: 4px;
+    background: #F2F2F2;
+    margin-bottom: 8px;
+}
+
+.serviceSecondDiv {
+    margin-bottom: 8px;
+}
+
+.addressDivInput {
+    color: #BCBCBC;
+}
+
+.addressDivInput input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #090909;
+}
+
+.addressDivInput select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #0d0d0d;
+}
+
+.addressDivInput textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #ffff;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #BCBCBC;
+    margin-left: -12px;
+}
+
+
+
+
+.taxaddressDivInput {
+    color: #BCBCBC;
+}
+
+.taxaddressDivInput input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #040404;
+}
+
+.taxaddressDivInput select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #BCBCBC;
+}
+
+.taxaddressDivInput textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #ffff;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #BCBCBC;
+}
+
+.addressDivInput1 textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #ffff;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #050505;
+}
+
+.taxAddressDivInput1 textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #ffff;
+    font-size: 17px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #0c0c0c;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(14px);
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    padding: 20px 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.checkbox-container span {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #696969;
+}
+
+.options {
+    display: flex;
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    color: #696969;
+}
+
+.option input {
+    margin-right: 5px;
+    color: #696969;
+}
+
+.checkbox-container1 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    padding: 20px 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.checkbox-container1 span {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #696969;
+}
+
+.checkbox-container2 {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    background-color: #f0f0f0;
+    padding: 20px 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.addGstDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.addGstHeader {
+    display: flex;
+    font-weight: 500;
+    line-height: 42px;
+    color: #C22457;
+    cursor: pointer;
+    background: #f2f2f2;
+    border-radius: 5px;
+    padding: 0px 10px;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox-containerNew {
+    display: flex;
+    align-items: center;
+    /* margin: 9px 0; */
+    background-color: #ffff;
+    padding: 20px 10px;
+    border-radius: 4px;
+    justify-content: space-between;
+}
+
+.checkbox-containerNew span {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #696969;
+}
+
+.kycFormDiv textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+}
+
+.kycHeadingDiv p {
+    text-align: justify;
+    font-size: 20px;
+    color: grey;
+    width: 92%;
+}
+
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+.datepicker {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+    background-color: #fff;
+}
+
+.vkycfDeclarationDiv input:disabled {
+    color: #000;
+}
+
+.kycFormDiv .datepicker input[type="text"] {
+    padding-right: 30px;
+}
+
+.vendormainButtonDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0%;
+    margin: 0 auto 1.5rem;
+}
+
+.vendormainButtonDiv .nextButton {
+    width: 130px;
+    height: 35px;
+    background: #C22457;
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.vendormainButtonDiv1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 12px 0%;
+    margin: 0 auto 1.5rem;
+}
+
+.vendormainButtonDiv1 .nextButton {
+    width: 130px;
+    height: 40px;
+    background: #C22457;
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    color: #fff;
+}
+
+.vendormainButtonDiv2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 0%;
+    margin: 0 auto 1.5rem;
+}
+
+.vendormainButtonDiv2 .nextButton {
+    width: 130px;
+    height: 40px;
+    background: #C22457;
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    color: #fff;
+}
+
+/* src/FileUpload.css */
+.upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    outline-style: dashed;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    outline-color: grey;
+}
+
+.upload-form {
+    text-align: center;
+}
+
+.upload-label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload-icon {
+    width: 50px;
+    height: 31px;
+}
+
+.file-input {
+    display: none;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}
+
+.file-info {
+    margin-top: 10px;
+}
+
+.uploadText {
+    color: #C22457;
+}
+
+.goodServiceSecondDiv,
+.majorcustomerSecondDiv {
+    margin: 10px 0 0 0;
+    background: #F2F2F2;
+    padding: 16px;
+}
+
+.goodServiceSecondDiv label,
+.majorcustomerSecondDiv label {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.addressDivInput2 input,
+.addressDivInput2 textarea {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    font-size: 13px;
+    border-radius: 2px;
+    background: #FFFFFF;
+    color: #0b0b0b;
+}
+
+.kycFormDiv1 {
+    /* margin-top: 5px; */
+}
+
+.kycFormDiv1 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.kycFormDiv1>input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #090909;
+}
+
+.kycFormDiv1 textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+}
+
+
+.kycFormDiv1 select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+}
+
+.kycFormDiv2 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.addressDivInput1 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.addressDivInput label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.kycFormDiv2 textarea {
+    width: 100%;
+    padding: 7px 10px;
+    margin: 8px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+}
+
+.benifiAccNokycFormDiv {
+    margin-top: 5px;
+    width: 100%;
+}
+
+.benifiAccNokycFormDiv label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.benifiAccNokycFormDiv>input {
+    width: 100%;
+    padding: 12px 10px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #0a0a0a;
+}
+
+.benifiAccNokycFormDiv select {
+    width: 100%;
+    padding: 12px 10px;
+    /* margin: 8px 0; */
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #0a0a0a;
+}
+
+.quill {
+    background: #ffff;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.vkycfDeclarationDiv label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.vkycfDeclarationDiv input {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #080808;
+}
+
+.textEditorHr {
+    margin: 70px 0 24px 0;
+    color: #F2F2F2;
+}
+
+.container span {
+    color: #BCBCBC;
+}
+
+.contactTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.contactTable th,
+.contactTable td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.contactTable th {
+    background-color: #cecbcb;
+    color: #696969;
+    font-weight: 400;
+    font-size: 15px;
+    text-align: center;
+}
+
+.contactTable tr {
+    transition: background-color 0.2s ease-in-out;
+}
+
+.contactTable tr {
+    background-color: #f2f2f2;
+}
+
+.contactTable tr:hover {
+    background-color: #f2f2f2;
+}
+
+.contactTable td {
+    color: #C22457;
+    font-weight: 400;
+}
+
+.contactSecondDiv {
+    margin: 0px;
+    overflow-x: scroll;
+}
+
+.text {
+    border: none;
+}
+
+.benifiAccNokycFormDiv1 {
+    margin-top: 5px;
+}
+
+.benifiAccNokycFormDiv1 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #696969;
+}
+
+.taxaddressDivInput label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.taxAddressDivInput1 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.addressDivInput2 label {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.benifiAccNokycFormDiv1>input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #090909;
+}
+
+.benifiAccNokycFormDiv1 select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #696969;
+}
+
+.input-container {
+    display: flex;
+    /* align-items: center; */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.input-prefix {
+    background-color: #ffe6e6;
+    /* Light red background */
+    color: #C22457;
+    /* Dark red text color */
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+}
+
+.companyTurnOver {
+    border: none;
+    outline: none;
+    padding: 8px;
+    flex: 1;
+}
+
+.companyTrunOverDiv {
+    margin-right: 20px;
+    font-size: 17px;
+    color: #696969;
+}
+
+.docLabels {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.docChooseFile {
+    padding: 6px 19px 6px 19px;
+    font-size: 13px;
+    border-radius: 2px;
+    background-color: #C22457;
+    border: none;
+    color: white;
+}
+
+.docInnerfirstDiv {
+    margin: -4px 6px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 10px; */
+    width: 65%;
+}
+
+.docInnerSecondDiv {
+    width: 65%;
+}
+
+textarea {
+    resize: none;
+
+}
+
+.commonparaStyle {
+    width: 100%;
+    min-height: 35px;
+    height: auto;
+    padding: 6px 10px;
+    margin: 2px 0 0 0;
+    box-sizing: border-box;
+    border: 1px solid #706e6e3b;
+
+    font-size: 13px;
+    border-radius: 2px;
+    color: #0c0c0c;
+    word-wrap: break-word;
+    white-space: pre-line;
+}
+
+.goodServicesDiv {
+    width: 100%;
+}
+
+.delete-icon {
+    margin-left: 5px;
+    cursor: pointer;
+    color: red;
+}
+
+.uploadMainDivOuter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.vendorFillModal {
+    animation: show 0.2s;
+    background-color: #fff !important;
+    border-radius: 1em;
+    display: block;
+    height: auto;
+    max-width: 79%;
+    outline: transparent;
+    padding: 1em;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+
+.vendorFillModal {
+    display: block;
+    padding: 1rem;
+    width: 65%;
+    max-width: 80%;
+    background-color: var(--bug_white_color);
+    border-radius: 5px;
+    outline: transparent;
+    transition: all 0.5s ease-in-out;
+    animation: show 0.2s;
+    transform: scale(1);
+}
+
+.vendorFillOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    bottom: 0;
+    left: 0;
+    backdrop-filter: blur(2px);
+    animation: show 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+    background: #abababb0;
+}
+
+@media (min-width:1024px) {
+    .vendorFormMainDiv {
+        width: 89%;
+        height: 73vh;
+        overflow-y: scroll;
+    }
+
+    .supplierSecondDiv,
+    .financialSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .switch {
+        margin-left: 10px;
+    }
+
+    .supplierHeader {
+        font-size: 18px;
+    }
+
+    .kycFormDiv label {
+        font-size: 16px;
+        line-height: 42px;
+    }
+
+    .addressHeader {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    .addressDivInput1,
+    .addressDivInput {
+        padding: 2px 12px 0px 12px;
+    }
+
+    .supplierFirstDiv {
+        width: 50%;
+    }
+
+    .kycFormDiv>input {
+        width: 100%;
+        padding: 7px 10px;
+        /* margin: 8px 0; */
+        box-sizing: border-box;
+        border: 1px solid #707070;
+        font-size: 15px;
+        border-radius: 2px;
+        color: #070707;
+    }
+
+    .supplierSecondinnerDiv {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .kycFormDiv {
+        width: 49%;
+    }
+
+    .kycFormDiv select {
+        padding: 5.5px 10px;
+        font-size: 15px;
+    }
+
+    .addressDivInput1 textarea,
+    .addressDivInput input,
+    .addressDivInput select {
+        font-size: 15px;
+    }
+
+    .checkbox-container span {
+        margin-right: 20px;
+        font-size: 15px;
+    }
+
+    .options {
+        font-size: 13px;
+    }
+
+    .contactTable {
+        width: 87%;
+        border-collapse: collapse;
+        margin: 20px auto;
+    }
+
+    .benifiAccNoDiv {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .benifiAccNokycFormDiv label {
+        font-size: 16px;
+    }
+
+    .benifiAccNokycFormDiv>input {
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+
+    .kycFormDiv2 label {
+        font-size: 16px;
+    }
+
+    .addressMainDiv {
+        margin-top: 11px;
+    }
+
+    .benifiAccNokycFormDiv select {
+        padding: 6px 10px;
+        font-size: 15px;
+    }
+
+    .benifiAccNokycFormDiv1 label {
+        font-size: 16px;
+    }
+
+    .benifiAccNokycFormDiv1>input {
+        padding: 7px 10px;
+        font-size: 15px;
+    }
+
+    .benifiAccNokycFormDiv1 {
+        width: 100%;
+    }
+
+    .companyTrunOverDiv {
+        font-size: 15px;
+    }
+
+    .input-prefix {
+        padding: 0 9px;
+    }
+
+    .goodServiceSecondDiv,
+    .majorcustomerSecondDiv,
+    .docDetailsSecondDiv,
+    .kycHeadingDiv {
+        width: 64%;
+        margin: 0 auto;
+    }
+
+    .docDetailsSecondDiv span {
+        font-size: 14px;
+    }
+
+    .supplierFirstDiv2 {
+        width: 67%;
+    }
+
+    .kycHeadingDiv p {
+        font-size: 15px;
+    }
+
+    .vkycfDeclarationDiv label {
+        font-size: 16px;
+    }
+
+    .vkycfDeclarationDiv input {
+        padding: 7px 10px;
+        font-size: 16px;
+    }
+
+    .decInnerDiv {
+        width: 64%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .vendormainButtonDiv {
+        width: 89%;
+        padding: 5px 0%;
+    }
+
+    .vkycfDeclarationDiv {
+        width: 49%;
+    }
+
+    .vendormainButtonDiv2 {
+        width: 89%;
+    }
+
+    .vendormainButtonDiv1 {
+        width: 84%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 0%;
+        margin: 0 auto 1.5rem;
+    }
+
+    .upload-icon {
+        height: 20px;
+    }
+
+    .majorcustomerSecondDiv {
+        margin-bottom: 20px;
+    }
+
+    .addressDivInput1 label {
+        font-size: 16px;
+    }
+
+    .addressDivInput label {
+        font-size: 16px;
+    }
+
+    .contactTable td {
+        font-size: 15px;
+    }
+
+    .text {
+        width: 100%;
+        height: 45px;
+        padding: 10px;
+    }
+
+    .addressInnerDiv {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .addressDivInput1 {
+        width: 100%;
+    }
+
+    .addressDivInput {
+        width: 49%;
+    }
+
+    .docInnerfirstDiv {
+        margin: -10px 6px;
+    }
+
+}
+
+@media (min-width:1192px){
+    .addressHeader {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .taxSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+    }
+    .taxaddressInnerDiv {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .taxAddressDivInput1 {
+        width: 100%;
+        padding: 0 10px 10px 10px;
+    }
+   .serviceSecondDiv{
+    
+        width: 70% ;
+        margin: 0 auto;
+    
+   }
+   .addressInnerDiv {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+.addressDivInput {
+    width: 49%;
+    margin-top: -7px;
+}
+.addressDivInput2 {
+    width: 99.5%;
+}
+.addressDivInput select {
+    padding: 6px 10px;
+    font-size: 14px;
+}
+.checkbox-containerNew {
+    padding: 8px 10px;
+    width: 872px;
+}
+.checkbox-containerNew span {
+    font-size: 14px;
+}
+.addressDivInput input {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+.taxaddressDivInput {
+    width: 49%;
+}
+.taxaddressDivInput label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+
+.taxAddressDivInput1 label {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #4f4848;
+}
+.addressDivInput1 label {
+    font-size: 14px;
+}
+.addressDivInput label{
+    font-size: 14px;
+}
+.addressDivInput2 label {
+    font-size: 14px;
+}
+.taxaddressDivInput input {
+    font-size: 14px;
+}
+.taxAddressDivInput1 textarea {
+    font-size: 14px;
+}
+.kycFormDiv label {
+    font-size: 14px;
+}
+.checkbox-container1 span {
+    margin-right: 20px;
+    font-size: 14px;
+}
+.checkbox-container span {
+    font-size: 14px;
+}
+.checkbox-container {
+    padding: 8px 10px;
+}
+.benifiAccNokycFormDiv label {
+    font-size: 14px;
+}
+.kycFormDiv2 label {
+    font-size: 14px;
+}
+.checkbox-container2 {
+    padding: 8px 10px;
+}
+.vkycfDeclarationDiv input {
+    padding: 7px 10px;
+    font-size: 13px;
+}
+.companyTrunOverDiv {
+    font-size: 14px;
+}
+.container span {
+    color: #696969;
+}
+.docInnerfirstDiv {
+    width: 65%;
+}
+.vendorFillModal {
+    /* Set the width and height of the modal as needed */
+    width: 67%;
+    max-width: 900px;
+    /* height:74%; */
+    max-height: 600px;
+    overflow: auto; /* Ensure scrolling is enabled */
+}
+
+/* For WebKit browsers (Chrome, Safari, Edge) */
+.vendorFillModal::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+.vendorFillModal::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track background */
+}
+
+.vendorFillModal::-webkit-scrollbar-thumb {
+    background: #888; /* Scrollbar color */
+    border-radius: 10px; /* Roundness of the scrollbar */
+}
+
+.vendorFillModal::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color when hovered */
+}
+
+/* For Firefox */
+.vendorFillModal {
+    scrollbar-width: thin; /* Options: auto, thin, or none */
+    scrollbar-color: #888 #f1f1f1; /* Thumb color and track color */
+}
+
+.vendorFormMainDiv::-webkit-scrollbar {
+    width: 6px;
+    height: 10px !important; /* Width of the scrollbar */
+}
+
+.vendorFormMainDiv::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track background */
+}
+
+.vendorFormMainDiv::-webkit-scrollbar-thumb {
+    background: rgb(194, 192, 192);
+    border-radius: 20px;
+    height: 10px; /* Roundness of the scrollbar */
+}
+.vendorFormMainDiv1::-webkit-scrollbar {
+    width: 6px;
+    height: 10px !important; /* Width of the scrollbar */
+}
+
+.vendorFormMainDiv1::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Track background */
+}
+
+.vendorFormMainDiv1::-webkit-scrollbar-thumb {
+    background: rgb(194, 192, 192);
+    border-radius: 20px;
+    height: 10px !important; /* Roundness of the scrollbar */
+}
+
+.vendormainButtonDiv2 {
+    margin-top: -10px;
+}
+
+.vendormainButtonDiv .nextButton {
+    height: 40px;
+    padding: 0 2px 0 2px;
+}
+.vendormainButtonDiv {
+    margin-top: -3px;
+}
+
+}
+
+@media (min-width:1280px) {
+
+    .supplierFirstDiv,
+    .supplierFirstDiv2 {
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-right: 26px;
+        height: 45px;
+        margin-bottom: 1%;
+    }
+
+    .docDetailsSecondDiv span {
+        font-size: 14px;
+    }
+
+    .supplierFirstDiv2 {
+        width: 75%;
+    }
+
+    .supplierSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .kycHeadingDiv {
+        width: 100%;
+    }
+
+    .supplierSecondinnerDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .kycFormDiv {
+        width: 45%;
+    }
+
+    .addressInnerDiv {
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 8px;
+    }
+
+    .taxaddressInnerDiv {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .addressDivInput {
+        width: 49%;
+        margin-top: -7px;
+    }
+
+    .taxaddressDivInput {
+        width: 49%;
+    }
+
+    .addressMainDiv {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .addressDivInput1 {
+        width: 100%;
+    }
+
+    .taxAddressDivInput1 {
+        width: 100%;
+        padding: 0 10px 10px 10px;
+    }
+
+    .checkbox-container {
+        width: 92%;
+        margin: 15px auto 0px;
+    }
+
+    .vendorFormMainDiv {
+        width: 85%;
+        background-color: #ffff;
+    }
+
+    .taxSecondDiv {
+        width: 64.5% !important;
+        margin: 0 auto !important;
+    }
+
+    .serviceSecondDiv {
+        width: 64.5% !important;
+        margin: 0 auto;
+    }
+
+    .addressDivInput2 {
+        width: 99.5%;
+    }
+
+    .checkbox-containerNew {
+        width: 100% !important;
+
+    }
+
+    .financialSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .kycFormDiv1 {
+        width: 30%;
+    }
+
+    .benifiAccNoDiv {
+        width: 92%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .kycFormDiv2 {
+        width: 92%;
+        margin: 0 auto;
+    }
+
+    .goodServiceSecondDiv {
+        width: 64.5%;
+        margin: 0 auto;
+    }
+
+    .majorcustomerSecondDiv {
+        width: 64.5%;
+        margin: 0 auto;
+    }
+
+    .textEditorHr {
+        margin: 189px 26px 24px 117px;
+    }
+
+    .docDetailsSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .docDetailsInner1 {
+        width: 92%;
+        padding: 0px;
+        margin: 4px 0;
+    }
+
+    .declSecondDiv {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .kycHeadingDiv {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .decInnerDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        width: 92%;
+    }
+
+    .vkycfDeclarationDiv {
+        width: 32%;
+    }
+
+    .supplierHeader {
+        font-size: 17px;
+    }
+
+    .kycFormDiv label {
+        font-size: 14px;
+    }
+
+    .kycFormDiv>input {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .kycFormDiv select {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .addressHeader {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .addressDivInput input {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .addressDivInput select {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .taxaddressDivInput input {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .taxaddressDivInput select {
+        padding: 6px 10px;
+        font-size: 14px;
+        margin-top: -1px;
+    }
+
+    .addressDivInput1 textarea {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: -7px;
+    }
+
+    .taxAddressDivInput1 textarea {
+        padding: 6px 10px;
+        font-size: 13px;
+        margin-top: 0;
+        margin-bottom: -7px;
+    }
+
+
+    .checkbox-container span {
+        font-size: 13px;
+    }
+
+    .checkbox-container {
+        padding: 12px 10px;
+    }
+
+    .addGstHeader {
+        font-size: 14px;
+    }
+
+    .addressDivInput2 input {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .checkbox-containerNew span {
+        font-size: 14px;
+    }
+
+    .checkbox-containerNew {
+        padding: 8px 10px;
+        width: 672px !important;
+
+    }
+
+    .supplierHeader1 {
+        font-size: 17px;
+    }
+
+    .kycFormDiv1 label {
+        font-size: 14px;
+    }
+
+    .kycFormDiv1>input {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+
+    .benifiAccNokycFormDiv label {
+        font-size: 14px;
+    }
+
+    .benifiAccNokycFormDiv>input {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .kycFormDiv2 label {
+        font-size: 14px;
+    }
+
+    .kycFormDiv2 textarea {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .benifiAccNokycFormDiv select {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .supplierHeader2 {
+
+        font-size: 17px;
+    }
+
+    .docDetailsInner1 span {
+        font-size: 14px;
+    }
+
+    .supplierHeader3 {
+        font-size: 17px;
+    }
+
+    .kycHeadingDiv p {
+        text-align: justify;
+        font-size: 15px;
+    }
+
+    .vkycfDeclarationDiv label {
+        font-size: 15px;
+    }
+
+    .vkycfDeclarationDiv input {
+        padding: 6px 10px;
+        font-size: 14px;
+    }
+
+    .upload-container {
+        padding: 8px 5px;
+    }
+
+    .upload-icon {
+        width: 36px;
+        height: 14px;
+    }
+
+    .vendormainButtonDiv {
+        width: 84%;
+        margin-top: 6px;
+    }
+
+    .switch {
+        margin-left: 10px;
+        margin-right: -11px;
+    }
+
+    .supplierHeader2,
+    .supplierHeader,
+    .supplierHeader1,
+    .supplierHeader3 {
+        line-height: 31px;
+    }
+
+    .vendormainButtonDiv1 {
+        width: 95%;
+    }
+
+    .contactTable {
+        margin: 0 auto;
+        width: 65%;
+        /* float: right;
+        margin-right: 28px; */
+    }
+
+    .contactTable th {
+        font-size: 14px;
+    }
+
+    .contactTable td {
+        font-size: 14px;
+        padding: 4px 6px;
+    }
+
+    .zipCodeInput {
+        margin-top: -15px;
+    }
+
+    .container {
+        margin: -3px 10px 4px 0;
+    }
+
+    .container span {
+        color: #696969;
+        font-size: 13px;
+    }
+
+    .checkbox-container1 {
+        width: 92%;
+        margin: 15px auto;
+        padding: 12px 10px;
+    }
+
+    .checkbox-container1 span {
+        font-size: 13px;
+        margin-right: 0;
+    }
+
+    .checkbox-container2 {
+        width: 92%;
+        margin: 15px auto;
+        padding: 12px 10px;
+    }
+
+    .option {
+        font-size: 13px;
+    }
+
+    .kycFormmargin {
+        margin-top: -15px;
+    }
+
+    .kycFormmargin1 {
+        margin-top: -5px;
+    }
+
+    .benifiAccNokycFormDiv1 label {
+        font-size: 14px;
+    }
+
+    .benifiAccNokycFormDiv1>input {
+        font-size: 13px;
+        padding: 6px 10px;
+    }
+
+    .benifiAccNokycFormDiv1 {
+        width: 100%;
+    }
+
+    .input-prefix {
+        width: 17%;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .companyTurnOver {
+        font-size: 12px;
+    }
+
+    .input-container {
+        height: 30px;
+    }
+
+    .text {
+        height: 33px;
+        width: 100%;
+        overflow-y: scroll;
+        padding: 5px;
+    }
+
+    .companyTrunOverDiv {
+        font-size: 13px;
+    }
+
+    .uploadText {
+        font-size: 14px;
+    }
+
+    .addressDivInput1 label {
+        font-size: 13px !important;
+    }
+
+    .addressDivInput label {
+        font-size: 13px;
+    }
+
+    .taxaddressDivInput label {
+        font-size: 13px !important;
+    }
+
+    .taxAddressDivInput1 label {
+        font-size: 13px;
+    }
+
+    .addressDivInput2 label {
+        font-size: 13px;
+    }
+
+    .vendorFormMainDiv {
+        height: 422px;
+        overflow-y: scroll;
+        margin: 10px auto 0px auto;
+    }
+
+    .vendormainButtonDiv2 {
+        width: 84%;
+        margin-top: 2px;
+    }
+
+    .vendorFormMainDiv1 {
+        width: 84%;
+        height: 81vh;
+        overflow-y: scroll;
+        margin: 10px auto 0px auto;
+    }
+}
+
+.vkycfHr {
+    color: #F2F2F2;
+    margin: 20px 30px;
+}
+
+@media (min-width:1536px) {
+    .vendorFormMainDiv {
+        height: 731px;
+    }
+}
+
+
+
+
+
+
+

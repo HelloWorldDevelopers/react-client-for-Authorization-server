@@ -1,0 +1,770 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+
+
+:root {
+    --busi_overlay_bg_color: #03326496;
+  }
+
+.Main_Div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form_Container_Div {
+    height: 90%;
+    width: 70%;
+}
+
+.Logo_Div {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Logo_Div img {
+    width: 30%;
+}
+
+.Heading_Div .createHeading {
+    font-size: 18px;
+    margin: 0px 0 8px 0px;
+    font-weight: 500;
+    position: relative;
+    top: 1px;
+
+}
+
+.Heading_Div {
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Input_Container_Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Inputs {
+    margin: 5px 0;
+}
+
+.Inputs input {
+    width: 100%;
+    border: 1px solid #394EBB;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 7px 10px;
+    /* color: #767575; */
+}
+
+.Inputs select {
+    width: 100%;
+    border: 1px solid #394EBB;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 7px 6px;
+    /* color: #767575; */
+}
+
+::-webkit-scrollbar {
+    /* width: 10px;
+    height: 7px; */
+  }
+  
+ .agTableDiv ::-webkit-scrollbar-track {
+    border-radius: 50px;
+    
+  }
+  
+  .agTableDiv ::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+    border-radius: 50px;
+  
+  }
+  
+  .agTableDiv ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+  }
+
+.Inner_Div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.Button_Container_Div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.Button_Container_Div button {
+    border: none;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.InputMainDiv {
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 14px;
+}
+
+.createLinkInput {
+    margin: 5px 0;
+    width: 49%;
+    text-align: left;
+}
+
+.loginPageInput {
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.Toastify {
+    z-index: 1111111;
+}
+
+.openCreateLink {
+    border: none;
+    color: #fff;
+    padding: 7px 24px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.recordtable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.recordtable thead {
+    background-image: linear-gradient(90deg, #FFB800, #FF004D 100%);
+    color: #fff;
+    font-weight: 500;
+}
+
+.recordtable th {
+    padding: 5px;
+    font-size: 12px;
+    text-align: left;
+    font-weight: 500;
+    border: 1px solid;
+}
+
+.filledButtonDiv {
+    display: flex;
+    align-items: self-end;
+    justify-content: center;
+    margin: 6px 0;
+}
+
+.filledButtonDiv .icons {
+    margin: 0px 5px;
+    font-size: 14px;
+}
+
+.Create_Button_Div {
+    display: flex;
+    z-index: 1111;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+}
+
+.recordtable thead th:nth-child(1) {
+    width: 25%;
+    border-top-left-radius: 5px;
+}
+
+.recordtable thead th:nth-child(2) {
+    width: 20%;
+}
+
+.recordtable thead th:nth-child(3) {
+    width: 20%;
+}
+
+.recordtable thead th:nth-child(4) {
+    width: 15%;
+}
+
+.recordtable thead th:nth-child(5) {
+    width: 30%;
+    border-top-right-radius: 5px;
+}
+
+.recordtable td span {
+    font-size: 11px;
+}
+
+.tableDiv {
+    display: block;
+    width: 100%;
+    height: 36px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    font-size: 11px;
+    word-break: break-all;
+    white-space: nowrap;
+}
+
+.modalHeightCreatLink {
+    animation: show 0.2s;
+    background-color: #fff !important;
+    display: block;
+    height: 40%;
+    max-width: 79%;
+    outline: transparent;
+    padding: 1em;
+    text-align: center;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+}
+/* .ag-ltr .ag-cell-focus:not(.ag-cell-range-selected):focus-within{
+    border: none ;
+} */
+.buttonCreateLink {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0px;
+}
+
+.ag-cell {
+    border-right: 1px solid #ccc;
+}
+
+.ag-header-cell,
+.ag-cell-value {
+    border-right: 1px solid #cac6c6 !important;
+}
+
+.ag-header-cell .ag-cell-value:nth-child(5) {
+    border-right: none !important;
+}
+
+.Toastify__toast-theme--light {
+    width: 90%;
+    position: absolute;
+    right: 0;
+    text-align: left;
+}
+
+.Toastify__toast-body>div:last-child {
+    word-break: break-word;
+    flex: 1 0;
+    margin-left: 10px;
+}
+
+#searchFil {
+    margin: 0px 0px 0px;
+    border-radius: 5px;
+    padding: 7px 15px 7px 40px;
+    width: 80%;
+    outline: none;
+    border: 1px solid #394EBB;
+}
+
+.Input_Label label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.gradientDiv {
+    height: 5px;
+    width: 97%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+
+}
+
+.DivTable {
+    width: 100%;
+}
+
+.Table_Div {
+    width: 98%;
+    margin: 0 auto;
+}
+
+.ag-paging-panel.ag-unselectable {
+    height: 30px;
+}
+
+.ag-ltr .ag-cell {
+    font-size: 12px;
+}
+
+.ag-header-row.ag-header-row-column {
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #2EAEAA 100%);
+    font-weight: 500;
+    color: #fff !important;
+}
+
+.ag-header-cell.ag-focus-managed,
+.ag-header.ag-pivot-off.ag-header-allow-overflow,
+.ag-header-row.ag-header-row-column {
+    height: 35px !important;
+    min-height: 35px !important;
+}
+
+.ButtonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* .ButtonDiv .icons {
+    margin: 0px 5px;
+    font-size: 15px;
+} */
+
+.ButtonDiv a {
+    display: block;
+    width: 83%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.ButtonDiv button {
+    background: transparent;
+    border: none;
+    width: 10%;
+}
+
+.ButtonDiv button img {
+    width: 50%;
+}
+
+.headerDiv {
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.Toastify__toast-container {
+    text-align: center;
+}
+
+.eyeicon {
+    position: absolute;
+    right: 0;
+    left: 92%;
+    top: 36px;
+    font-size: 19px;
+    color: #FF004D;
+}
+
+.Toastify__close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+
+.Toastify__toast-icon {
+    order: 1;
+    
+}
+
+.createLinkIconDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border: none;
+}
+
+.createLinkEdit {
+    font-size: 20px;
+    margin: 1px 0;
+    color: #FF004D;
+}
+
+.createLinkView {
+    font-size: 20px;
+    margin: 1px 0;
+    color: #FF004D;
+}
+
+.createLinkWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.createLinkSidebar {
+    width: 20%;
+    margin-top: 8vh;
+}
+
+.createLinkNewDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.loginModal {
+    display: block;
+    height: 86vh;
+    overflow-y: hidden;
+    width: 65%;
+    max-width: 80%;
+    background-color: var(--bug_white_color);
+    border-radius: 5px;
+    outline: transparent;
+    transition: all 0.5s ease-in-out;
+    animation: show 0.2s;
+    transform: scale(1);
+}
+
+.loginOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(8px);
+    background: rgba(171, 171, 171, 0.7);
+    animation: show 0.2s;
+    transform: scale(1);
+
+}
+
+.modalHeightLogin {
+    animation: show 0.2s;
+    background-color: #fff !important;
+    border-radius: 1em;
+    display: block;
+    height: 30%;
+    max-width: 79%;
+    outline: transparent;
+    transform: scale(1);
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    width: 70% !important;
+}
+
+.LoginInput_Container_Div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.LoginInner_Div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.LoginInputMainDiv {
+    width: 40%;
+    background: #F7F7F7;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 14px;
+}
+
+.LoginInputs {
+    margin: 5px 0;
+}
+
+.LoginPageInput {
+    margin: 5px 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+}
+
+.LoginInput_Label label {
+    font-size: 13px;
+    font-weight: 600;
+    color: #120C6E;
+}
+
+.remember_me {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.login_checkbox {
+    cursor: pointer;
+}
+
+.LoginButton_Container_Div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.LoginButton_Container_Div button {
+    width: 100%;
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #2EAEAA 100%);
+}
+
+.LoginbuttonCreateLink {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.LoginInputs input {
+    border: 1px solid #eee6e6;
+    border-radius: 50px;
+    margin-top: 5px;
+    outline: none;
+    padding: 7px 10px;
+    width: 100%;
+}
+
+.loginModal {
+    background-color: var(--bug_white_color);
+    border-radius: 5px;
+    display: block;
+    height: 86vh;
+    max-width: 80%;
+    outline: #0000;
+    transition: all .5s ease-in-out;
+    width: 65%;
+}
+
+.loginHeaderH1 {
+    text-align: left;
+    font-size: 21px;
+    color: #120C6E;
+    font-weight: 600;
+    margin-top: -170px;
+    margin-left: 27px;
+}
+
+.loginParagraph {
+    text-align: left;
+    font-size: 16px;
+    color: #120C6E;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.loginParagraph span {
+    text-align: left;
+    font-size: 16px;
+    color: #120C6E;
+    font-weight: 600;
+    margin-left: 40px;
+}
+
+.loginText {
+    text-align: left;
+    font-size: 16px;
+    color: #120C6E;
+    font-weight: 600;
+    width: 68%;
+    margin: 0 auto;
+}
+
+.loginIntersectionImage {
+    height: 93px;
+    text-align: center;
+}
+
+.loginIntersectionDiv {
+    width: 0%;
+    margin: -52px auto;
+}
+
+.loginCornerDiv {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.loginCornerImage {
+    margin-top: -79px;
+    height: 93px;
+    text-align: right;
+}
+
+.loginModalMainDiv {
+    padding: 1rem;
+    margin-top: -124px;
+}
+
+.loginHeaderDiv {
+    background-image: url('./CustomerFeedback/Assets/headerloginimg.svg');
+    height: 259px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.LoaderModal{
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: 75%;
+    outline: none;
+  }
+  
+  .LoaderOverlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    bottom: 0;
+    left: 0;
+    background-color: var(--busi_overlay_bg_color);
+    animation: show 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1);
+  }
+
+  .commonPara {
+    font-size: 13px;
+    width: 100%;
+    background-color: #98949433;
+    /* outline: none; */
+    margin-top: 5px;
+    /* border-radius: 3px; */
+    padding: 7px 10px;
+  }
+
+  .swal2-confirm{
+    background: #D21363 !important;
+}
+
+
+@media (min-width:1024px) {
+    .modalHeightCreatLink {
+        height: 45vh;
+    }
+
+    .createLinkInput {
+        margin: 5px 0;
+        width: 47%;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1280px) {
+    .loginModalMainDiv {
+        margin-top: -109px;
+    }
+
+    .loginModal {
+        height: 81vh;
+    }
+
+    .ag-header-cell-text {
+        font-size: 12px;
+        font-weight: 500;
+        overflow: hidden; 
+        text-overflow: ellipsis;
+    }
+
+}
+
+
+
+@media (min-width: 1440px) {
+    .loginModalMainDiv {
+        margin-top: -161px;
+    }
+
+        .loginModal {
+            height: 67vh;
+        }
+}
+
+@media (min-width: 1536px) {
+    .loginModal {
+        height: 64vh;
+    }
+}
+
+.swal2-confirm{
+    background-color: #D21363;
+}
+.swal2-title{
+    position: relative;
+    top: 65px;
+}
+.swal2-html-container{
+    z-index: 1;
+    justify-content: center;
+    margin: 0;
+    padding: 1em 0.6em 6.3em;
+    overflow: auto;
+    color: inherit;
+    font-size: 1.125em;
+    font-weight: normal;
+    line-height: normal;
+    text-align: center;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+.loginmain{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+    -webkit-backdrop-filter: blur(10px); /* For older WebKit browsers */
+    background: rgba(120, 116, 116, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.loginContainer {
+    /* Define styles for your login popup content */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Optional: Add shadow for depth */
+    max-width: 80%; /* Adjust width as needed */
+    max-height: 80%; /* Adjust height as needed */
+    overflow-y: auto; /* Enable scrolling if content exceeds dimensions */
+}

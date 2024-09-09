@@ -1,0 +1,234 @@
+.employeeMain_Div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.employeeCreateLinkWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+  }
+ .ag-theme-alpine .cell-border{
+    border: none !important;
+ }
+  
+.FormcalenderIcon{
+    position: relative;
+}
+  .employeeCreateLinkSidebar {
+    width: 20%;
+    margin-top: 6vh;
+
+}
+
+
+.employeeCreateLinkNewDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.employeeHeading_Div .employeecreateHeading {
+    font-size: 18px;
+    position: relative;
+    top: 7px;
+}
+
+.employeeHeading_Div {
+        text-align: center;
+    /* margin-bottom: -12px; */
+    font-size: 35px;
+    font-weight: 700;
+    margin: 15px 0 0 0;
+    width: 97%;
+}
+
+.employeeTable_Container_Dev {
+    position: relative;
+}
+
+.employeeTable_Div {
+    width: 97%;
+    margin: 0 auto;
+}
+
+.employeeTable_Div .ag-paging-panel.ag-unselectable{
+    height: 30px;
+}
+.employeeTable_Div .ag-ltr .ag-cell{
+    font-size: 12px;
+}
+.employeeTable_Div .ag-header-row.ag-header-row-column {
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #2EAEAA 100%);
+    font-weight: 500;
+    color: #fff !important;
+}
+.employeeTable_Div  .ag-header-cell.ag-focus-managed,.ag-header.ag-pivot-off.ag-header-allow-overflow,.ag-header-row.ag-header-row-column{
+    height: 35px !important;
+    min-height: 35px !important;
+}
+.employeeHeading_Div .employeecreateHeading{
+    font-weight: 500;
+}
+
+.employeeTable_Div  .ag-cell {
+    border-right: 1px solid #ccc;
+}
+
+.employeeTable_Div  .ag-header-cell, .ag-cell-value {
+    border-right: 1px solid #cac6c6!important;
+}
+.employeeTable_Div  .ag-header-cell .ag-cell-value:nth-child(5){
+    border-right: none!important;
+}
+
+.employeeSearchbtnWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employeeSearch_filter{
+    position: relative;
+    margin-right: -30px;
+}
+.employeeSearch_filter img{
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+
+#employeeSearchFil {
+    border-radius: 5px;
+    padding: 7px 15px 7px 40px;
+    width: 80%;
+    outline: none;
+    border: 1px solid #394EBB;
+    height: 34px;
+}
+
+.employeeCreate_Button_Div {
+    display: flex;
+    z-index: 1111;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.employeeOpenCreateLink {
+    border: none;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 5px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.datePickerCalendarIcon1 {
+    width: 5%;
+    position: absolute;
+    top: 64%;
+    right: 10px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.datepicker1 {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #707070;
+    font-size: 13px;
+    border-radius: 2px;
+    color: #000;
+}
+
+.kycFormDiv .datepicker input[type="text"] {
+    padding-right: 30px;
+}
+
+.empCreateLinkMainDiv {
+    position: relative;
+}
+
+.empSearchbtnMainDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.empShowEntries {
+    font-size: 14px;
+    color: grey;
+}
+
+.empShowEntriesSelect {
+    width: 28%;
+    border: 1px solid #394ebb;
+    border-radius: 2px;
+    height: 25px;
+    text-align: center;
+}
+
+.empShowEntriesOuterDiv {
+    width: 18%;
+    margin-top: 12px;
+}
+
+.css-b62m3t-container {
+    position: relative;
+    box-sizing: border-box;
+    font-size: 13px;
+    border: 1px solid #394EBB;
+    margin-top: 5px;
+    border-radius: 5px;
+    /* color: black; */
+}
+.css-1jqq78o-placeholder {
+    grid-area: 1 / 1 / 2 / 3;
+    /* color: hsl(0, 0%, 50%); */
+    margin-left: 2px;
+    margin-right: 2px;
+    box-sizing: border-box;
+}
+
+.css-tj5bde-Svg {
+    color: black;
+}
+
+.css-19bb58m {
+    grid-area: 1 / 2 / 1 / -1;
+}
+
+.css-1jqq78o-placeholder {
+    padding-left: 5px;
+    color: black;
+}
+
+
+
+
+@media (min-width:1024px) {
+    .customerSatisHeading_Div {
+        margin: 57px 0px 0 0;
+    }
+}
+
+@media (min-width:1280px) {
+    .customerSatisHeading_Div {
+        margin: 18px 0px 0 0;
+    }
+
+}
+@media (min-width:1536px){
+    .employeeCreateLinkSidebar{
+        margin-top: 9vh !important;
+    }
+}

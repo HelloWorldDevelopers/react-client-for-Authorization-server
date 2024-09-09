@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media(min-width:1024px) {
+
+    .pdftemplatewrapper .pdfhead {
+        width: 100%;
+        height: 8vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+        /* background-image: url('../../CustomerFeedback/Assets/pdfHeaderNew.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 600px 100px; */
+    }
+
+
+    .pdftemplatewrapper .pdfhead .headerwrapper {
+        width: 100%;
+        /* display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 1% 0 1% 2%;
+        background: #00adee; */
+    }
+
+    .pdftemplatewrapper .pdfhead .headerwrapper .logo {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pdftemplatewrapper .pdfhead .headerwrapper .logo img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .pdftemplatewrapper .pdfhead .headerwrapper .headercontent {
+        width: 60%;
+    }
+
+    /* footer  */
+    .pdftemplatewrapper .pdffooter {
+        width: 100%;
+        height: 7vh;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+
+    .pdffooter .footerwrapper {
+        width: 100%;
+        height: 7vh;
+    }
+
+    .pdffooter .pagenumber {
+        width: 20px;
+        height: 20px;
+        z-index: 200;
+    }
+
+    .pdffooter .pagenumber .page {
+        /* display: block; */
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #ffffff;
+        border: none;
+        border-radius: 5px;
+        font-size: 10px;
+        color: #00adee;
+    }
+
+    .pdftemplatewrapper .detailsdata {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pdftemplatewrapper .detailsdata .icondata {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 5px;
+    }
+}

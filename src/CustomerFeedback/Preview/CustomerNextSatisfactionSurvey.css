@@ -1,0 +1,873 @@
+.MainouterDiv {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 2px 10px 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  height: 53vh;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.CustomerFeedmainContentDiv {
+  padding: 10px;
+  border-radius: 4px;
+  background: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 8px 0;
+}
+
+.pdfCustomerFeedbackmainContentDiv {
+  padding: 11px;
+  border-radius: 4px;
+  background: #fff;
+  margin: 5px 12px;
+  overflow-y: scroll;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.pdfcustomerNextouterDiv {
+  width: 100%;
+  padding: -1% 2% 0% 2%;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.pdfquestionDetails {
+  color: #000000;
+  font-size: 12px;
+  display: flex;
+  width: 93%;
+  justify-content: flex-start;
+  font-weight: 500;
+}
+
+.pdfquestionDetailsHeader {
+  color: #000000;
+  font-size: 12px;
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+}
+
+.pdfcustomerSemicolon1 {
+  color: #707070;
+  font-size: 11px;
+  /* width: 1%;
+  margin: 0 17px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700; */
+}
+
+.pdfcustomerFeedAnscolon {
+  color: #707070;
+  font-size: 10px;
+  width: 8%;
+  margin: 0 18px 0 13px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+}
+
+.pdfanswerDivfeedNext {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pdfcustomerFeedbackQuestionNo {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  font-weight: 600;
+}
+
+.pdfcustomerFeedbackfontdiv {
+  font-size: 13px;
+  color: #707070;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+}
+
+.pdfcustomerFeedbackfontAnswerdiv {
+  font-size: 13px;
+  color: #000;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 500;
+  margin-left: -30px;
+}
+
+.pdfcustomerFeedbackQuestionDetails {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+}
+
+.customerSemicolon {
+  color: #707070;
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  width: 6%;
+  margin: 0 0 0 30px;
+  font-weight: 700;
+}
+
+.pdfcustomerfeedquescolon {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-start;
+  width: 3%;
+  margin: 0 0 0 30px;
+  font-weight: 700;
+}
+
+.pdfcustomerSemicolon {
+  color: #707070;
+  font-size: 11px;
+  margin-right: 23%;
+  font-weight: 700;
+}
+
+.customerFeedbackQuestionDetail {
+  color: #707070;
+  width: 8.9%;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: -2px;
+  padding-right: 23px;
+  font-weight: 600;
+  margin-left: 2px;
+}
+
+.questionDetails1 {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 500;
+  width: 80%;
+}
+
+.questionDetails2 {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  width: 80%;
+}
+
+.mainContentDivNext {
+  width: 70%;
+  margin: 5px auto;
+  border-radius: 3px;
+  background: #fff;
+  padding: 5px 0;
+  box-shadow: 0px 0px 7px #D6D6D6BA;
+
+}
+
+.questionDivNext {
+  border-width: 3px;
+  border-left: 3px solid;
+  -webkit-border-image:
+    -webkit-gradient(linear, 0 0, 0 100%, from(#FFB800, #FF004D)) 1 100%;
+  -webkit-border-image:
+    -webkit-linear-gradient(#FFB800, #FF004D) 1 100%;
+  -moz-border-image:
+    -moz-linear-gradient(#FFB800, #FF004D) 1 100%;
+  -o-border-image:
+    -o-linear-gradient(#FFB800, #FF004D) 1 100%;
+  border-image:
+    linear-gradient(to bottom, #FFB800, #FF004D) 1 100%;
+}
+
+.questionDetailsNext {
+  padding: 0% 1%;
+  color: #828282 !important;
+}
+
+.custNextanswerDivNext {
+  padding: 1% 2.9% 0.5%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.answerDivNext textarea {
+  width: 100%;
+  resize: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: 3px solid #828282A3;
+  padding: 0% 1%;
+  outline: none;
+}
+
+textarea:focus {
+  outline: 1px solid #FFB800;
+  border-radius: 3px;
+}
+
+.btnDownload {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2px;
+  height: auto;
+  position: sticky;
+  bottom: 0;
+}
+
+.mainButtonDiv1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 0%;
+  width: 90%;
+  margin: -2px auto 2.5rem;
+}
+
+.backBtn {
+  width: 108px;
+  height: 36px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.submitBtn {
+  border: 2px solid #FF1046;
+  width: 130px;
+  height: 40px;
+  color: #FF1046;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border-image: linear-gradient(45deg, #FFB800, #FF004D);
+  border-image-slice: 1;
+}
+
+.btnDownload button {
+  width: 108px;
+  height: 36px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.CustomerfeedbackModal {
+  display: block;
+  width: 65%;
+  max-width: 80%;
+  background-color: var(--bug_white_color);
+  outline: transparent;
+  transition: all 0.5s ease-in-out;
+  animation: show 0.2s;
+  transform: scale(1);
+}
+
+.customerFeedbackModalHeightBug {
+  animation: show 0.2s;
+  background-color: #fff;
+  display: block;
+  height: 367px;
+  max-height: 72%;
+  max-width: 85%;
+  outline: transparent;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  width: 57% !important;
+  overflow-y: scroll;
+
+}
+
+.customerFeedbackModalHeightBug::-webkit-scrollbar {
+  width: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.pdfCustomerFeedbackDeleteClose {
+  width: 94px;
+  height: 31px;
+  background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+  margin: 10px 15px 14px 0px;
+  position: absolute;
+  top: 75%;
+  z-index: 111;
+  font-size: 11px;
+}
+
+.pdfCustomerFeedbackbuttonDivDele {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 4px;
+  z-index: 1111;
+  visibility: visible !important;
+}
+
+.customerFeedbackquestionDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.pdfcustomerFeedbackquestionDiv {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pdfcustomerFeedbackquestionDivQuestion {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pdfCustomerFeedbackfooter {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 9;
+  color: black;
+  font-size: 13px;
+  position: sticky;
+  bottom: 0;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.pdfCustomerFeedbackfooter1 {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  background-color: #fff;
+  padding: 5px;
+  z-index: 9;
+  color: black;
+  font-size: 13px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.delete_close_one {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 111111;
+}
+
+.pdfhidedownloadBtn {
+  visibility: hidden;
+}
+
+.mainHeaderDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #C22457;
+  font-weight: 600;
+  margin: 7px 0 7px 10px;
+}
+
+.pdfheader {
+  font-size: 12px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+}
+
+.pdfheader1 {
+  font-size: 13px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+}
+
+.pdfmainHeaderDiv1 {
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+  opacity: 1.22;
+  width: 60%;
+  padding: 0px 8px;
+  margin: 10px 12px;
+}
+
+.borderDiv {
+  border-left: 2px solid black;
+}
+
+.pdfcustomerFeedDetailDiv {
+  margin: 13px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.pdfcustomerFeedDetailDiv table td {
+  border: none;
+  vertical-align: top;
+  width: 60%;
+  padding: 0 10px;
+}
+
+.pdfcustomerFeedDetailDiv table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.pdfcustomerFeedDetailDiv span.label {
+  font-size: 12px;
+  display: block;
+  width: 40%;
+  font-weight: bold;
+  padding-left: 9px;
+}
+
+.pdfcustomerFeedDetailDiv1 table td {
+  border: none;
+  vertical-align: top;
+  width: 60%;
+  padding: 0 10px;
+}
+
+.pdfcustomerFeedDetailDiv1 table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.pdfcustomerFeedDetailDiv1 span.label {
+  font-size: 13px;
+  display: block;
+  width: 20%;
+  font-weight: 600;
+  padding-left: 3px;
+}
+
+.previewLabel {
+  font-size: 12px;
+  display: block;
+  width: 40%;
+  font-weight: bold;
+  padding-left: 9px;
+}
+
+.pdfcustomernextcolon {
+  width: 5%;
+}
+
+.customerHtwo {
+  height: 1.5px;
+  background: transparent linear-gradient(270deg, #FFB800 0%, #FF004D 100%) 0% 0% no-repeat padding-box;
+}
+
+.pdfQuestionNew {
+  margin-top: 83px;
+}
+
+.pdfcustomerFeedDetailDiv1 {
+  margin: 4px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.DetailDivNextSatisfaction {
+  border-left: 3px solid #00adee;
+  padding-left: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.DetailFirstDiv,
+.DetailSecondDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+  margin-top: 12px;
+}
+
+.DetailFirstDiv div,
+.DetailSecondDiv div {
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
+}
+
+.DetailInnerFirstDiv {
+  width: 100%;
+  margin-top: -12px;
+}
+
+.DetailInnerFirstDiv div:nth-child(1) {
+  width: 15%;
+}
+
+.DetailInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+}
+
+.DetailInnerFirstDiv div:nth-child(3) {
+  width: 82%;
+}
+
+.DetailInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.DetailSecondDivInnerFirstDiv {
+  width: 100%;
+  margin-top: -12px;
+}
+
+.DetailSecondDivInnerFirstDiv div:nth-child(1) {
+  width: 20%;
+}
+
+.DetailSecondDivInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+}
+
+.DetailSecondDivInnerFirstDiv div:nth-child(3) {
+  width: 77%;
+}
+
+.DetailSecondDivInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custFeedQuesSemi {
+  width: 2%;
+  font-size: 14px;
+  color: grey;
+  font-weight: 600;
+  margin-left: 2px
+}
+
+.custfeedAns {
+  margin-top: 7px;
+  font-size: 14px;
+  margin-left: 2px;
+  font-weight: 500;
+}
+
+.customerNextcolon {
+  margin-right: -9px;
+  margin-top: 5px;
+  width: 2%;
+  margin-left: 11px;
+}
+
+.pdfinformationDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px;
+}
+
+.pdffontSize {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+}
+
+.pdfansfontSize {
+  color: #000000;
+  font-size: 11px;
+  display: flex;
+  width: 90%;
+  justify-content: flex-start;
+  font-weight: 500;
+}
+
+.pdfCustomerFeedbackmainContentDiv1 {
+  padding: 11px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 5px 12px;
+  overflow-y: scroll;
+}
+
+.pdfPageBreak {
+  page-break-before: always;
+}
+
+.pdfcustomernextcolon {
+  margin-left: -124px;
+}
+
+.pdfImageDiv {
+  /* width: 100%; */
+  margin: 0 0 ;
+  /* height: 19px; */
+}
+
+.pdfImage {
+  width: 100%;
+  margin-top: 0px;
+}
+
+.pdfProjectEndHeader {
+  font-size: 13px;
+  margin: 46px 0 10px 15px;
+}
+
+.pdfProjectEndHeader1 {
+  font-size: 14px;
+  position: relative;
+  top: 49px;
+  margin-left: 15px;
+  margin-top: -9px ;
+}
+
+.pdfFooterImage1 {
+  position: relative;
+}
+
+.pdfImage1 {
+  width: 100%;
+  position: relative;
+  top: 7rem;
+  height: 46px;
+}
+
+.PdficonDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: absolute;
+  top: 88px;
+  right: 10px;
+  gap: 68px;
+  color: #D21363;
+}
+
+.pdfIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.pdfIcons3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 22px;
+}
+
+.PdficonHeader {
+  font-size: 15px;
+  font-weight: 500;
+  color: #D21363;
+}
+
+.pdfcontentDetails {
+  display: block;
+  width: 100%;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.customernextWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customerNextSidebar {
+  width: 20%;
+  margin-top: -85px;
+}
+
+.customerNextNewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 6px auto 0 auto;
+}
+
+.customerNextdataDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.detailDivNextSatisfaction {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.detailFirstDiv,
+.detailSecondDiv {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.detailInnerFirstDiv,
+.detailInnerSecondDiv {
+  display: flex;
+  align-items: center;
+  margin: -2px 0;
+}
+
+.detailColon {
+  margin: 0 5px;
+  margin-left: 25px;
+}
+
+.detailFirstDiv {
+  border-left: 3px solid #00BFFF;
+  /* light blue line */
+  padding-left: 10px;
+}
+
+.pdfPageBreak {
+  page-break-before: always;
+}
+
+/* .pdfCustomerFeedbackmainContentDiv1,
+.pdfcustomerNextouterDiv,
+.DetailDivNextSatisfaction,
+.DetailFirstDiv,
+.DetailSecondDiv,
+.DetailInnerFirstDiv,
+.DetailSecondDivInnerFirstDiv {
+  break-inside: avoid;
+} */
+.pdfCustomerFeedbackmainContentDiv1,
+.pdfcustomerNextouterDiv,
+.DetailDivNextSatisfaction,
+.DetailFirstDiv,
+.DetailSecondDiv,
+.DetailInnerFirstDiv,
+.DetailSecondDivInnerFirstDiv {
+  page-break-before: always;
+}
+
+@media (min-width:1024px) {
+  .customerFeedbackQuestionDetail {
+    width: 10.5%;
+  }
+
+  .MainouterDiv {
+    height: 53vh;
+  }
+
+  .customerFeedbackModalHeightBug {
+    height: 670px;
+  }
+
+}
+
+
+@media (min-width: 1120px) {
+  .customerFeedbackQuestionDetail {
+      width: 9.7%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .customerFeedbackQuestionDetail {
+      width: 8.9%;
+  }
+}
+
+@media (min-width: 1352px) {
+  .customerFeedbackQuestionDetail {
+    width: 8.6%;
+}
+}
+
+@media (min-width:1440px) {
+  .customerFeedbackQuestionDetail {
+    width: 8.3%;
+  }
+
+  .MainouterDiv {
+    height: 65vh;
+  }
+
+  .customerFeedbackModalHeightBug {
+    height: 670px;
+  }
+
+}
+
+@media (min-width:1536px) {
+  .customerFeedbackQuestionDetail {
+    margin-left: -12px;
+  }
+
+  .MainouterDiv {
+    height: 65vh;
+  }
+
+  .customerFeedbackModalHeightBug {
+    height: 670px;
+  }
+  
+
+  .customerNextSidebar{
+margin-top: -17px !important;
+  }
+}
+.pdfcontentDetails {
+  display: block;
+  overflow-wrap: break-word; 
+}
+
+.pdfcontentDetails {
+  word-wrap: break-word; /* Ensure long words break correctly */
+  overflow-wrap: break-word; /* Break long words */
+  white-space: normal; /* Allow normal text wrapping */
+  margin: 0; /* Remove any margin that might affect alignment */
+  padding: 0; /* Remove any padding affecting layout */
+}

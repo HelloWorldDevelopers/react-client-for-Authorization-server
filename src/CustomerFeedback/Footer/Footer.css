@@ -1,0 +1,13 @@
+
+.footer{
+    position: fixed;
+    bottom:0;
+    height: 30px;
+    width: 100%;
+    text-align:center;
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+    padding:5px;
+    z-index: 1111;
+    color: #fff;
+    font-size: 13px;
+}

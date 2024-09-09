@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --busi_overlay_bg_color: #03326496;
+}
+
+.FieldDatamainContentDiv {
+  padding: 10px;
+  border-radius: 4px;
+  background: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 5px 0;
+}
+
+.FieldDatacontentDataDiv {
+  width: 90%;
+  margin: 0 auto;
+  height: 53vh;
+  overflow-y: scroll;
+  background: #ffff;
+  padding: 10px 2px 10px 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+
+}
+
+.outerDiv {
+  width: 90%;
+  margin: 0px auto 10px auto;
+  padding: 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.FieldDataquestionDetails {
+  white-space: pre-wrap;
+  tab-size: 2;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80%;
+}
+
+.FieldDataquestionDiv {
+  display: flex;
+}
+
+.FieldDataanswerDiv {
+  width: 75%;
+  display: flex;
+  margin: 10px 0;
+}
+
+.FieldDataanswerDiv1 {
+  width: 86%;
+  display: flex;
+  margin: 10px 0;
+}
+
+.FieldDatareviewStyle {
+  font-size: 14px;
+  margin-right: 13px;
+  color: #000;
+  width: 8%;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.FieldDatareviewquesSemiStyle {
+  font-size: 14px;
+  color: #707070;
+  margin-right: 16px;
+  margin-left: 15px;
+  font-weight: 500;
+}
+
+.FieldDatareviewquesSemiStyle1 {
+  font-size: 14px;
+  color: #707070;
+  margin-right: 16px;
+  margin-left: 3px;
+  font-weight: 500;
+}
+
+.FieldDatareviewquesStyle {
+  margin-left: 1px;
+  font-size: 14px;
+  margin-right: 11px;
+  color: #707070;
+  width: 63px;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.FieldData {
+  margin-top: 7px;
+  font-size: 14px;
+  width: 1%;
+  margin-right: -1px;
+  margin-left: 12px;
+  position: relative;
+  left: 1px;
+}
+
+.FieldData1 {
+  margin-top: 7px;
+  font-size: 14px;
+  width: 0.7%;
+  margin-right: -7px;
+  margin-left: 12px;
+  position: relative;
+  left: -10px;
+}
+
+.FieldDataWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FieldDatanewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 90vh;
+}
+
+.FieldDatanewDiv1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 90vh;
+}
+
+.answerDiv p {
+  font-size: 14px;
+}
+
+.FieldDatamainButtonDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: -1px auto 2rem;
+}
+
+.FieldDatamainButtonDiv .backButton {
+  width: 108px;
+  margin: 9px 0 2px 0;
+  height: 37px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.FieldDatamainButtonDiv .nextButton {
+  width: 108px;
+  margin: 9px 0 2px 0;
+  height: 37px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+
+.hideDiv {
+  display: none;
+}
+
+.Modal {
+  display: block;
+  padding: 1rem;
+  width: 65%;
+  max-width: 80%;
+  background-color: var(--bug_white_color);
+  outline: transparent;
+  transition: all 0.5s ease-in-out;
+  animation: show 0.2s;
+  transform: scale(1);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  bottom: 0;
+  left: 0;
+  backdrop-filter: blur(2px);
+  animation: show 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+  background: #abababb0;
+}
+
+.bug_modal_close {
+  position: absolute;
+  top: 0;
+  right: -15px;
+  cursor: pointer;
+}
+
+.bug_modal_close img {
+  width: 65%;
+}
+
+.bug_modal_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 9px;
+  font-size: 13px;
+}
+
+.bug_modal_title img {
+  width: 60%;
+}
+
+.bug_modal_body {
+  height: 80vh;
+  overflow-y: auto;
+  padding-top: 20px;
+}
+
+.bug_modal_footer {
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.bug_modal_footer button {
+  padding: 0px 25px;
+  border: 1px solid #f2e500;
+  background: transparent;
+  border-radius: 4px;
+  margin: 0 5px;
+}
+
+.ModalWidth {
+  width: 60% !important;
+}
+
+.ModalHeightBug {
+  animation: show 0.2s;
+  background-color: #fff;
+  display: block;
+  height: auto;
+  max-width: 79%;
+  outline: transparent;
+  padding: 1em;
+  text-align: center;
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  width: 25% !important;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #a7a7a7;
+}
+
+textarea:-moz-placeholder {
+  color: #a7a7a7;
+}
+
+textarea::-moz-placeholder {
+  color: #a7a7a7;
+}
+
+textarea:-ms-input-placeholder {
+  color: #a7a7a7;
+}
+
+.lottie svg {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.answerDivNext {
+  padding: 1% 0% 0.5%;
+}
+
+.answerDivNext textarea {
+  width: 100%;
+  resize: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: none;
+  border-left: 3px solid #828282A3;
+  padding: 0% 1%;
+  outline: none;
+}
+
+textarea:focus {
+  outline: 1px solid #FFB800;
+  border-radius: 3px;
+}
+
+.fillFeedbackDetailDiv {
+  border-left: 3px solid #00adee;
+  padding-left: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.fillFeedbackDetailDiv span.label {
+  font-size: 13px;
+  display: block;
+  width: 20%;
+  font-weight: 600;
+}
+
+.procolon {
+  position: relative;
+  left: -21px;
+}
+
+.procolon1 {
+  position: relative;
+  left: -6px;
+  margin-right: 12px;
+}
+
+.fillFeedbackinformationDiv {
+  display: flex;
+  width: 100%;
+}
+
+.fillFeedbackDetailDiv table td {
+  border: none;
+  vertical-align: top;
+  width: 50%;
+}
+
+.fillFeedbackDetailDiv table {
+  width: 100%;
+}
+
+span.contentDetails {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  margin-top: 3px;
+}
+
+.delete_close {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  z-index: 111;
+}
+
+.DeleteClose {
+  width: 75px;
+  height: 30px;
+  background: transparent linear-gradient(102deg, #FFB800 0%, #FF004D 100%) 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.buttonDivDele {
+  margin-top: 15px;
+}
+
+.bug_star {
+  color: #dc0000;
+}
+
+small {
+  font-size: 12px;
+  color: #a7a7a7;
+}
+
+.hint {
+  display: none;
+  transition: all .4s ease;
+}
+
+.textArea:focus~.hint {
+  display: block;
+  transition: all .4s ease;
+}
+
+.FieldDataSidebar {
+  width: 20%;
+  margin-top: -11px;
+
+}
+
+.LoaderModal {
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  width: 75%;
+  outline: none;
+}
+
+.LoaderOverlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 999999;
+  bottom: 0;
+  left: 0;
+  background-color: var(--busi_overlay_bg_color);
+  animation: show 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
+}
+
+@media (min-width:1440px) {
+  .FieldDatacontentDataDiv {
+    height: 64vh;
+  }
+}
+
+@media (min-width:1192px){
+  .ModalHeightBug {
+    width: 26% !important;
+  }
+}

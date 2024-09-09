@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.Main_Div {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Form_Container_Div1 {
+    height: 90vh;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 6px;
+}
+
+.getStartedLogo_Div {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.getStartedLogo_Div img {
+
+    width: 40%;
+}
+
+.Heading_Div {
+    text-align: center;
+    margin-top: 0;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.Heading_Div span {
+    display: block;
+}
+
+.mainHeadingData {
+    font-weight: 600;
+    color: #32A4D9;
+    font-size: 20px;
+}
+
+.Input_Container_Div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Inputs {
+    margin: 5px 0;
+}
+
+.getStartedInputs input {
+    width: 100%;
+    border: 1px solid #394ebb;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+
+.getStartedInner_Div {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.getStartedButton_Container_Div {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.getStartedButton_Container_Div button {
+    border: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-radius: 3px;
+    margin-top: 10px 0;
+    background: #D21363;
+}
+
+.loginInput_Label label {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+@media (min-width:320px) {
+    .Form_Container_Div1 {
+        height: auto;
+        width: 97%;
+    }
+
+    .getStartedLogo_Div img {
+        width: 70%;
+        margin: 10px 0;
+    }
+
+    .Heading_Div span {
+        margin: 6px 0;
+    }
+
+    .getStartedInner_Div {
+        width: 94%;
+    }
+
+    .getStartedButton_Container_Div {
+        margin: 10px 0px;
+    }
+}
+
+@media (min-width:768px) {
+    .getStartedLogo_Div img {
+        width: 40%;
+    }
+
+    .Form_Container_Div1 {
+        height: auto;
+        width: 90%;
+    }
+}
+
+@media (min-width:1024px) {
+    .Form_Container_Div1 {
+        height: auto;
+        width: 45%;
+    }
+}
+
+@media (min-width:1280px) {
+    .Form_Container_Div1 {
+        height: auto;
+        width: 43%;
+    }
+
+    .getStartedInner_Div {
+        width: 80%;
+        padding-top: 10px;
+    }
+}
+.Input_Label{
+display: flex;
+flex-direction: column;
+gap: 3px;
+}

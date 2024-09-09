@@ -1,0 +1,617 @@
+.EmployeeDownloadnextWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.EmployeeDownloadNextSidebar {
+  width: 20%;
+  margin-top: 0vh;
+}
+
+.EmployeeDownloadNextNewDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 6px auto 0 auto;
+}
+
+.EmployeeDownloadNextdataDiv {
+  width: 100%;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.pdfcustomernextcolon2 {
+  width: 5%;
+}
+
+.pdfcustomernextcolon2 {
+  margin-left: -178px;
+}
+
+.EmployeeDetailDivNextSatisfaction {
+  border-left: 3px solid #00adee;
+  padding-left: 10px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.EmployeeDownloadDetailFirstDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.EmployeeDownloadDetailFirstDiv div {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.EmployeeDownloadDetailInnerFirstDiv {
+  width: 100%;
+}
+
+.EmployeeDownloadDetailInnerFirstDiv div:nth-child(1) {
+  width: 15%;
+  font-size: 13px;
+
+}
+
+.EmployeeDownloadDetailInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+  font-size: 13px;
+  position: relative;
+  left: -9px;
+}
+
+.EmployeeDownloadDetailInnerFirstDiv div:nth-child(3) {
+  width: 82%;
+  font-size: 13px;
+}
+
+.EmployeeDownloadDetailInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 88%;
+  font-size: 13px;
+}
+
+.EmployeeDownloadDetailSecondDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.EmployeeDownloadDetailSecondDiv div {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+}
+
+.EmployeeDownloadDetailSecondDivInnerFirstDiv {
+  width: 100%;
+}
+
+.EmployeeDownloadDetailSecondDivInnerFirstDiv div:nth-child(1) {
+  width: 20%;
+  font-size: 13px;
+}
+
+.EmployeeDownloadDetailSecondDivInnerFirstDiv div:nth-child(2) {
+  width: 3%;
+  font-size: 13px;
+  position: relative;
+  left: -20px;
+}
+
+.EmployeeDownloadDetailSecondDivInnerFirstDiv div:nth-child(3) {
+  width: 77%;
+  font-size: 13px;
+}
+
+.EmployeeDownloadDetailSecondDivInnerFirstDiv div:nth-child(3)>p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 13px;
+}
+
+.EmployeeDownloadMainouterDiv {
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px 2px 10px 10px;
+  box-shadow: 0px 0px 10px -1px #a7a7a7;
+  border-radius: 5px;
+  height: 53vh;
+  overflow-y: scroll;
+  background-color: #fff;
+}
+
+.EmployeeDownloadmainHeaderDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: #C22457;
+  font-weight: 600;
+  margin: 7px 0 7px 10px;
+}
+
+.EmployeeDownloadCustomerFeedmainContentDiv {
+  padding: 10px;
+  border-radius: 4px;
+  background: #F7F7F7;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  margin: 8px 0;
+}
+
+.EmployeeDownloadcustomerFeedbackquestionDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+}
+
+.EmployeeDownloadcustomerFeedbackQuestionDetail {
+  color: #707070;
+  width: 9%;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: -2px;
+  padding-right: 16px;
+  font-weight: 600;
+  position: relative;
+  left: -9px;
+}
+
+.EmployeeDownloadcustFeedQuesSemi {
+  width: 2.4%;
+  font-size: 14px;
+  color: grey;
+  font-weight: 600;
+  margin-left: 3px
+}
+
+.EmployeeDownloadquestionDetails1 {
+  font-size: 14px;
+  color: #707070;
+  font-weight: 600;
+  width: 80%;
+}
+
+.EmployeeDownloadcustNextanswerDivNext {
+  padding: 1% 2.9% 0%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.EmployeeDownloadcustfeedAns {
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.EmployeeDownloadscustomerNextcolon {
+  margin-top: 7px;
+  width: 3%;
+  margin-left: 21px;
+  margin-right: -15px;
+}
+
+.ans {
+  position: relative;
+  top: 3px;
+}
+
+.EmployeeDownloadmainButtonDiv1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 0%;
+  width: 90%;
+  margin: -2px auto 2.5rem;
+}
+
+.EmployeeDownloadbackBtn {
+  width: 108px;
+  height: 37px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.EmployeeDownloadbtnDownload {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2px;
+  height: auto;
+  position: sticky;
+  bottom: 0;
+}
+
+.EmployeeDownloadbtnDownload button {
+  width: 108px;
+  height: 37px;
+  background: #C22457;
+  border-radius: 5px;
+  border: none;
+  opacity: 1;
+  color: #fff;
+}
+
+.EmployeeDownloadpdfImageDiv {
+  margin: 0 0;
+  /* height: 19px; */
+}
+
+.EmployeeDownloadpdfImage {
+  width: 100%;
+}
+
+.EmployeeDownloadpdfProjectEndHeader1 {
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  top: 49px;
+  left: 15px;
+}
+
+.EmployeeDownloadpdfProjectEndHeader {
+  display: flex;
+  font-size: 13px;
+  margin: 46px 0 10px 15px;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv1 table td {
+  border: none;
+  vertical-align: top;
+  width: 50%;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv1 table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+/* display: block;
+    width: 100%;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: 500; */
+
+
+.label1 {
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv1 {
+
+  margin: 58px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv {
+
+  margin: 13px 14px 2px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv table td {
+  border: none;
+  vertical-align: top;
+  width: 69%;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv table {
+  width: 100%;
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+}
+
+.pdfEmployeeDownloadFeedDetailDiv span {
+  /* font-size: 12px; */
+  display: block;
+  padding-left: 9px;
+}
+
+.EmployeeDownloadpdfinformationDiv {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2px 0;
+}
+
+.EmployeeDownloadpreviewLabel {
+  font-size: 11px;
+  display: block;
+  width: 20%;
+  font-weight: bold;
+  padding-left: 9px;
+}
+
+.EmployeeDownloadpdfcustomernextcolon {
+  width: 5%;
+}
+
+.EmployeeDownloadpdfcustomernextcolon {
+  margin-left: -48px;
+}
+
+.EmployeeDownloadpdfcontentDetails {
+  display: block;
+  width: 70%;
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: 500;
+}
+
+.EmployeeDownloadpdfcustomerNextouterDiv {
+  width: 100%;
+  border-radius: 5px;
+  position: relative;
+
+}
+
+.EmployeeDownloadpdfmainHeaderDiv1 {
+  background: #0000 linear-gradient(270deg, #ffb80000, #FFFCC7) 0 0 no-repeat padding-box;
+  opacity: 1.22;
+  width: 60%;
+  padding: 0px 8px;
+  margin: 10px 12px;
+}
+
+.EmployeeDownloadpdfheader1 {
+  font-size: 12px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+}
+
+.EmployeeDownloadpdfheader {
+  font-size: 12px;
+  border-left: 4px solid #FBBC05;
+  margin: 10px 5px 10px -7px;
+  padding: 4px;
+}
+
+.pdfEmployeeDownloadFeedbackmainContentDiv1 {
+  padding: 10px 6px 6px 10px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  margin: 5px 0;
+  overflow-y: scroll;
+}
+
+.pdfEmployeeDownloadFeedbackmainContentDiv {
+  padding: 10px 6px 6px 10px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 0px 7px #D6D6D6BA;
+  margin: 5px 0;
+  overflow-y: scroll;
+}
+
+.pdfEmployeeDownloadFeedbackquestionDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+}
+
+.pdfEmployeeDownloadFeedbackQuestionNo {
+  color: #707070;
+  font-size: 13px;
+  width: 7%;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+}
+
+.pdfEmployeeDownloadSemicolon {
+  color: #707070;
+  font-size: 11px;
+  display: flex;
+  justify-content: flex-start;
+  width: 1%;
+  margin: 0 17px;
+  font-weight: 700;
+}
+
+.EmployeeDownloadpdffontSize {
+  color: #707070;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+}
+
+.pdfEmployeeDownloadFeedbackQuestionDetails {
+  color: #707070;
+  font-size: 12px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 600;
+  width: 85%;
+}
+
+.EmployeeDownloadpdfanswerDivfeedNext {
+  display: flex;
+  justify-content: space-around;
+}
+
+.EmployeeDownloadpdfquestionDetailsHeader {
+  color: #000000;
+  font-weight: normal;
+  font-size: 12px;
+  width: 7%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 7px;
+}
+
+.pdfEmployeeDownloadSemicolon1 {
+  color: #707070;
+  font-size: 11px;
+  width: 1%;
+  margin: 0 17px;
+  display: flex;
+  justify-content: flex-start;
+  font-weight: 700;
+}
+
+.EmployeeDownloadpdfansfontSize {
+  color: #000000;
+  font-size: 12px;
+  display: flex;
+  width: 85%;
+  justify-content: flex-start;
+}
+
+.EmployeeDownloadpdfquestionDetails {
+  color: #000000;
+  font-size: 12px;
+  display: flex;
+  width: 85%;
+  justify-content: flex-start;
+}
+
+/* .EmployeeDownloadpdfhidedownloadBtn {
+  display: none;
+} */
+
+.pdfEmployeeDownloadFeedbackbuttonDivDele {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 4px;
+  z-index: 1111;
+}
+
+.pdfEmployeeDownFeedbackDeleteClose {
+  width: 94px;
+    height: 31px;
+    background: linear-gradient(90deg, #D21363 0%, #633CA3 28.01%, #394EBB 55.51%, #1382BB 79.01%, #2EAEAA 100%);
+    border-radius: 5px;
+    border: none;
+    opacity: 1;
+    color: #fff;
+    margin: 10px 15px 14px 0px;
+    position: absolute;
+    top: 75%;
+    z-index: 111;
+    font-size: 11px;
+}
+
+.EmployeeDownloadpdfFooterImage1 {
+  position: relative
+}
+
+.EmployeeDownloadpdfImage1 {
+  width: 100%;
+  position: relative;
+  top: 23px;
+}
+
+/* .companydetails{
+  position: relative;
+  top: 160px;
+} */
+
+.EmployeeDownloadPdficonDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3%;
+  color: rgb(210, 19, 99);
+}
+
+.EmployeeDownloadpdfIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.EmployeeDownloadPdficonHeader {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.EmployeeDownloadpdfIcons3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-right: 22px;
+}
+
+.pdfinformationDiv1 {
+  display: flex;
+  padding: 0px 0;
+  width: 100%;
+  align-items: center;
+  margin-top: -3px;
+}
+
+.pdfinformationDiv1Label {
+  display: flex;
+  width: 92px;
+  justify-content: space-between;
+  margin-right: 14px;
+  align-items: center;
+}
+.pdfinformationDiv1Label4 {
+  display: flex;
+  width: 165px;
+  justify-content: space-between;
+  margin-right: 14px;
+  align-items: center;
+}
+.previeww {
+  margin-left: 10;
+}
+
+@media (min-width:1440px) {
+  .EmployeeDownloadMainouterDiv {
+    height: 65vh;
+  }
+  .EmployeeDownloadcustomerFeedbackQuestionDetail {
+    width: 8.2% ;
+  }
+}
+
+@media (min-width:1517px) {
+  .EmployeeDownloadcustomerFeedbackQuestionDetail {
+    width: 8%;
+  }
+}
+@media(min-width:1536px){
+  .EmployeeDownloadNextSidebar{
+    margin-top: -16px !important;
+  }
+}
